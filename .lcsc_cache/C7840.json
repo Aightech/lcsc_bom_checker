@@ -1,0 +1,266 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C7840",
+    "componentBrandEn": "Texas Instruments",
+    "componentModelEn": "SN74LVC1G32DCKR",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8553283380801662976",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192019_Texas-Instruments-SN74LVC1G32DCKR_C7840.pdf",
+    "dataManualFileAccessId": "8586171710848163840",
+    "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/sn74lvc1g32",
+    "componentName": "TI SN74LVC1G32DCKR",
+    "minImage": "",
+    "minImageAccessId": "8553283381438656512",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8553283381438656512",
+        "productBigImage": null,
+        "productBigImageAccessId": "8553283380801662976",
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8553283389420552192",
+        "productBigImage": null,
+        "productBigImageAccessId": "8553283388606586880",
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8553283394223030272",
+        "productBigImage": null,
+        "productBigImageAccessId": "8553283393569124352",
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8553283404998062080",
+        "productBigImage": null,
+        "productBigImageAccessId": "8553283404394487808",
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TI SN74LVC1G32DCKR",
+    "componentSpecificationEn": "SC-70-5",
+    "describe": "-40℃~+125℃ 1 1.65V~5.5V 1.7V~2V 10uA 32mA 32mA 4ns@5V,50pF 74LVC Series OR Gate SC-70-5 Logic Gates ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Series",
+        "component_code": "C7840",
+        "attribute_value_name": "74LVC Series"
+      },
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C7840",
+        "attribute_value_name": "-40℃~+125℃"
+      },
+      {
+        "attribute_name_en": "Propagation Delay",
+        "component_code": "C7840",
+        "attribute_value_name": "4ns@5V,50pF"
+      },
+      {
+        "attribute_name_en": "Number of Channels",
+        "component_code": "C7840",
+        "attribute_value_name": "1"
+      },
+      {
+        "attribute_name_en": "Input Logic Level - High",
+        "component_code": "C7840",
+        "attribute_value_name": "1.7V~2V"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply",
+        "component_code": "C7840",
+        "attribute_value_name": "1.65V~5.5V"
+      },
+      {
+        "attribute_name_en": "Logic Type",
+        "component_code": "C7840",
+        "attribute_value_name": "OR Gate"
+      },
+      {
+        "attribute_name_en": "Quiescent Current",
+        "component_code": "C7840",
+        "attribute_value_name": "10uA"
+      },
+      {
+        "attribute_name_en": "Current - Output High(IOH)",
+        "component_code": "C7840",
+        "attribute_value_name": "32mA"
+      },
+      {
+        "attribute_name_en": "Input Logic Level - Low",
+        "component_code": "C7840",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Current - Output Low(IOL)",
+        "component_code": "C7840",
+        "attribute_value_name": "32mA"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Logic",
+    "secondSortName": "Logic Gates",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 8317,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 7047,
+    "overseasStockCount": 7047,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C7840",
+        "startNumber": 1,
+        "endNumber": 99,
+        "productPrice": 0.0491,
+        "erpComponentPriceKeyId": 187750983,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C7840",
+        "startNumber": 100,
+        "endNumber": 299,
+        "productPrice": 0.0386,
+        "erpComponentPriceKeyId": 187750986,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C7840",
+        "startNumber": 300,
+        "endNumber": 2999,
+        "productPrice": 0.0333,
+        "erpComponentPriceKeyId": 187750982,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C7840",
+        "startNumber": 3000,
+        "endNumber": 5999,
+        "productPrice": 0.0294,
+        "erpComponentPriceKeyId": 187750980,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C7840",
+        "startNumber": 6000,
+        "endNumber": 8999,
+        "productPrice": 0.0263,
+        "erpComponentPriceKeyId": 187750981,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C7840",
+        "startNumber": 9000,
+        "endNumber": -1,
+        "productPrice": 0.0246,
+        "erpComponentPriceKeyId": 187750984,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.0355,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74lvc1g32dckr_C7840.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "单路二输入正或门",
+    "lossNumber": 4,
+    "secondTypeNameEn": "Logic Gates",
+    "firstTypeNameEn": "Logic",
+    "secondTypeNameId": 2168,
+    "firstTypeNameId": 19,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 6944,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0491,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 223,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244375326277672,
+    "overseasComponentBrandBizKey": "385285308357283842",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "Texas Instruments-40℃~+125℃ 1 1.65V~5.5V 1.7V~2V 10uA 32mA 32mA 4ns@5V,50pF 74LVC Series OR Gate SC-70-5 Logic Gates ROHS"
+  },
+  "message": null
+}

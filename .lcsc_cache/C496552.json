@@ -1,0 +1,261 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C496552",
+    "componentBrandEn": "BAT WIRELESS",
+    "componentModelEn": "BWIPX-1-001E",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583288461540904960",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2406271401_BAT-WIRELESS-BWIPX-1-001E_C496552.pdf",
+    "dataManualFileAccessId": "8588893599760703488",
+    "dataManualOfficialLink": "",
+    "componentName": "BAT WIRELESS BWIPX-1-001E",
+    "minImage": "",
+    "minImageAccessId": "8583288462409261056",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583288462409261056",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583288461540904960",
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583288465873620992",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583288465018523648",
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583288468759302144",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583288467954941952",
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583288471943319552",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583288471029366784",
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "BAT WIRELESS BWIPX-1-001E",
+    "componentSpecificationEn": "SMD",
+    "describe": "1 50Ω 6GHz Board Side IPEX Male Pin SMD Coaxial Connectors (RF) ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Interface Diameter",
+        "component_code": "C496552",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Number of Ports",
+        "component_code": "C496552",
+        "attribute_value_name": "1"
+      },
+      {
+        "attribute_name_en": "Interface Length/Height",
+        "component_code": "C496552",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Operating Temperature Range",
+        "component_code": "C496552",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Connector Type",
+        "component_code": "C496552",
+        "attribute_value_name": "Board Side"
+      },
+      {
+        "attribute_name_en": "Frequency",
+        "component_code": "C496552",
+        "attribute_value_name": "6GHz"
+      },
+      {
+        "attribute_name_en": "Style",
+        "component_code": "C496552",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Impedance",
+        "component_code": "C496552",
+        "attribute_value_name": "50Ω"
+      },
+      {
+        "attribute_name_en": "Interface",
+        "component_code": "C496552",
+        "attribute_value_name": "Male Pin"
+      },
+      {
+        "attribute_name_en": "RF Series",
+        "component_code": "C496552",
+        "attribute_value_name": "IPEX"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Connectors",
+    "secondSortName": "Coaxial Connectors (RF)",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 508501,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 267630,
+    "overseasStockCount": 267630,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C496552",
+        "startNumber": 1,
+        "endNumber": 99,
+        "productPrice": 0.0573,
+        "erpComponentPriceKeyId": 128723782,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C496552",
+        "startNumber": 100,
+        "endNumber": 299,
+        "productPrice": 0.0459,
+        "erpComponentPriceKeyId": 128723784,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C496552",
+        "startNumber": 300,
+        "endNumber": 999,
+        "productPrice": 0.0401,
+        "erpComponentPriceKeyId": 128723787,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C496552",
+        "startNumber": 1000,
+        "endNumber": 4999,
+        "productPrice": 0.0353,
+        "erpComponentPriceKeyId": 128723786,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C496552",
+        "startNumber": 5000,
+        "endNumber": 9999,
+        "productPrice": 0.0336,
+        "erpComponentPriceKeyId": 128723785,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C496552",
+        "startNumber": 10000,
+        "endNumber": -1,
+        "productPrice": 0.0324,
+        "erpComponentPriceKeyId": 128723781,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 5000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.041,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/coaxial-connectors-rf_bat-wireless-bwipx-1-001e_C496552.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "IPEX 内针",
+    "lossNumber": 4,
+    "secondTypeNameEn": "Coaxial Connectors (RF)",
+    "firstTypeNameEn": "Connectors",
+    "secondTypeNameId": 2136,
+    "firstTypeNameId": 8,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 259940,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0573,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 187,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244375326277640,
+    "overseasComponentBrandBizKey": "385285319191171073",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": null,
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "BAT WIRELESS1 50Ω 6GHz Board Side IPEX Male Pin SMD Coaxial Connectors (RF) ROHS"
+  },
+  "message": null
+}

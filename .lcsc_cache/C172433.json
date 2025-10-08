@@ -1,0 +1,271 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C172433",
+    "componentBrandEn": "LRC",
+    "componentModelEn": "LP0404N3T5G",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583016353037504512",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811071612_LRC-LP0404N3T5G_C172433.pdf",
+    "dataManualFileAccessId": "8588884110715080704",
+    "dataManualOfficialLink": "",
+    "componentName": "LRC LP0404N3T5G",
+    "minImage": "",
+    "minImageAccessId": "8583016354052390912",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583016354052390912",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583016353037504512",
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583016357084872704",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583016356253454336",
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583016360247242752",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583016359345602560",
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583016363594567680",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583016362717958144",
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "LRC LP0404N3T5G",
+    "componentSpecificationEn": "SOT-883-3",
+    "describe": "1 P-Channel 1.2V@250uA 1.4A 152pF 18.5pF 2.2Ω@1.5V,100mA 2.8nC@4.5V 20V 6pF P-Channel SOT-883-3 MOSFETs ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C172433",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Type",
+        "component_code": "C172433",
+        "attribute_value_name": "P-Channel"
+      },
+      {
+        "attribute_name_en": "Input Capacitance(Ciss)",
+        "component_code": "C172433",
+        "attribute_value_name": "152pF"
+      },
+      {
+        "attribute_name_en": "Number",
+        "component_code": "C172433",
+        "attribute_value_name": "1 P-Channel"
+      },
+      {
+        "attribute_name_en": "Gate Threshold Voltage (Vgs(th))",
+        "component_code": "C172433",
+        "attribute_value_name": "1.2V@250uA"
+      },
+      {
+        "attribute_name_en": "Gate Charge(Qg)",
+        "component_code": "C172433",
+        "attribute_value_name": "2.8nC@4.5V"
+      },
+      {
+        "attribute_name_en": "Reverse Transfer Capacitance (Crss@Vds)",
+        "component_code": "C172433",
+        "attribute_value_name": "6pF"
+      },
+      {
+        "attribute_name_en": "Current - Continuous Drain(Id)",
+        "component_code": "C172433",
+        "attribute_value_name": "1.4A"
+      },
+      {
+        "attribute_name_en": "Drain to Source Voltage",
+        "component_code": "C172433",
+        "attribute_value_name": "20V"
+      },
+      {
+        "attribute_name_en": "Output Capacitance(Coss)",
+        "component_code": "C172433",
+        "attribute_value_name": "18.5pF"
+      },
+      {
+        "attribute_name_en": "Pd - Power Dissipation",
+        "component_code": "C172433",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "RDS(on)",
+        "component_code": "C172433",
+        "attribute_value_name": "2.2Ω@1.5V,100mA"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Transistors/Thyristors",
+    "secondSortName": "MOSFETs",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 183820,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 9418,
+    "overseasStockCount": 9418,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C172433",
+        "startNumber": 1,
+        "endNumber": 199,
+        "productPrice": 0.0251,
+        "erpComponentPriceKeyId": 164249062,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C172433",
+        "startNumber": 200,
+        "endNumber": 599,
+        "productPrice": 0.0203,
+        "erpComponentPriceKeyId": 164249066,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C172433",
+        "startNumber": 600,
+        "endNumber": 1999,
+        "productPrice": 0.0176,
+        "erpComponentPriceKeyId": 164249063,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C172433",
+        "startNumber": 2000,
+        "endNumber": 9999,
+        "productPrice": 0.0159,
+        "erpComponentPriceKeyId": 164249069,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C172433",
+        "startNumber": 10000,
+        "endNumber": 19999,
+        "productPrice": 0.0139,
+        "erpComponentPriceKeyId": 164249064,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C172433",
+        "startNumber": 20000,
+        "endNumber": -1,
+        "productPrice": 0.0132,
+        "erpComponentPriceKeyId": 164249065,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 10000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 10,
+    "leastNumberPrice": 0.036,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/mosfets_lrc-lp0404n3t5g_C172433.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "LP0404N3T5G",
+    "lossNumber": 5,
+    "secondTypeNameEn": "MOSFETs",
+    "firstTypeNameEn": "Transistors/Thyristors",
+    "secondTypeNameId": 2954,
+    "firstTypeNameId": 5,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 9099,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0251,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 423,
+    "providerInfos": null,
+    "componentProductType": 2,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 10,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388701,
+    "overseasComponentBrandBizKey": "385285310735454210",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "LRC1 P-Channel 1.2V@250uA 1.4A 152pF 18.5pF 2.2Ω@1.5V,100mA 2.8nC@4.5V 20V 6pF P-Channel SOT-883-3 MOSFETs ROHS"
+  },
+  "message": null
+}

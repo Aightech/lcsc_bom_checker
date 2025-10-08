@@ -1,0 +1,271 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C193402",
+    "componentBrandEn": "MDD(Microdiode Semiconductor)",
+    "componentModelEn": "SMF5.0A",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583020918087536640",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2308231016_MDD-Microdiode-Semiconductor-SMF5-0A_C193402.pdf",
+    "dataManualFileAccessId": "8565979015367180288",
+    "dataManualOfficialLink": "",
+    "componentName": "MDD(Microdiode Semiconductor) SMF5.0A",
+    "minImage": "",
+    "minImageAccessId": "8583020919082397696",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583020919082397696",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583020918087536640",
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583020922093907968",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583020921237999616",
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583020925302685696",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583020924413087744",
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583020928569237504",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583020927658938368",
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "MDD(Microdiode Semiconductor) SMF5.0A",
+    "componentSpecificationEn": "SOD-123FL",
+    "describe": "-55℃~+150℃ 200W@10/1000us 21.7A@10/1000us 400uA 5V 7V 9.2V TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C193402",
+        "attribute_value_name": "-55℃~+150℃"
+      },
+      {
+        "attribute_name_en": "Type",
+        "component_code": "C193402",
+        "attribute_value_name": "TVS"
+      },
+      {
+        "attribute_name_en": "Junction Capacitance",
+        "component_code": "C193402",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Peak Pulse Power Dissipation (Ppp)",
+        "component_code": "C193402",
+        "attribute_value_name": "200W@10/1000us"
+      },
+      {
+        "attribute_name_en": "Number of Channels",
+        "component_code": "C193402",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "level of protection",
+        "component_code": "C193402",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Clamping Voltage",
+        "component_code": "C193402",
+        "attribute_value_name": "9.2V"
+      },
+      {
+        "attribute_name_en": "Polarity",
+        "component_code": "C193402",
+        "attribute_value_name": "Unidirectional"
+      },
+      {
+        "attribute_name_en": "Peak Pulse Current (Ipp)",
+        "component_code": "C193402",
+        "attribute_value_name": "21.7A@10/1000us"
+      },
+      {
+        "attribute_name_en": "Voltage - Breakdown",
+        "component_code": "C193402",
+        "attribute_value_name": "7V"
+      },
+      {
+        "attribute_name_en": "Reverse Stand-Off Voltage (Vrwm)",
+        "component_code": "C193402",
+        "attribute_value_name": "5V"
+      },
+      {
+        "attribute_name_en": "Reverse Leakage Current (Ir)",
+        "component_code": "C193402",
+        "attribute_value_name": "400uA"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Circuit Protection",
+    "secondSortName": "ESD and Surge Protection (TVS/ESD)",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 231120,
+    "componentDesignator": "D",
+    "componentSource": "shop",
+    "stockCount": 238952,
+    "overseasStockCount": 238952,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C193402",
+        "startNumber": 1,
+        "endNumber": 199,
+        "productPrice": 0.0263,
+        "erpComponentPriceKeyId": 285077600,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C193402",
+        "startNumber": 200,
+        "endNumber": 599,
+        "productPrice": 0.0204,
+        "erpComponentPriceKeyId": 285077598,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C193402",
+        "startNumber": 600,
+        "endNumber": 2999,
+        "productPrice": 0.0179,
+        "erpComponentPriceKeyId": 285077596,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C193402",
+        "startNumber": 3000,
+        "endNumber": 8999,
+        "productPrice": 0.0134,
+        "erpComponentPriceKeyId": 285077594,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C193402",
+        "startNumber": 9000,
+        "endNumber": 20999,
+        "productPrice": 0.0126,
+        "erpComponentPriceKeyId": 285077599,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C193402",
+        "startNumber": 21000,
+        "endNumber": -1,
+        "productPrice": 0.0121,
+        "erpComponentPriceKeyId": 285077593,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 20,
+    "leastNumberPrice": 0.076,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_mdd-microdiode-semiconductor-smf5-0a_C193402.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "单向TVS 5V截止 峰值脉冲电流：21.7A@10/1000us",
+    "lossNumber": 8,
+    "secondTypeNameEn": "ESD and Surge Protection (TVS/ESD)",
+    "firstTypeNameEn": "Circuit Protection",
+    "secondTypeNameId": 3035,
+    "firstTypeNameId": 11,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 236486,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0263,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 421,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 20,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388782,
+    "overseasComponentBrandBizKey": "385285309691072514",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "MDD(Microdiode Semiconductor)-55℃~+150℃ 200W@10/1000us 21.7A@10/1000us 400uA 5V 7V 9.2V TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
+  },
+  "message": null
+}

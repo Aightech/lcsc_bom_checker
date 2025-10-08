@@ -1,0 +1,286 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C5117858",
+    "componentBrandEn": "G-Switch",
+    "componentModelEn": "GT-TC072A-H045-L1",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8584858357794541568",
+    "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208111000_G-Switch-GT-TC072A-H045-L1_C5117858.pdf",
+    "dataManualFileAccessId": "8590261292893036545",
+    "dataManualOfficialLink": "",
+    "componentName": "G-Switch GT-TC072A-H045-L1",
+    "minImage": "",
+    "minImageAccessId": "8584858358738665472",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8584858358738665472",
+        "productBigImage": null,
+        "productBigImageAccessId": "8584858357794541568",
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8584858363041075200",
+        "productBigImage": null,
+        "productBigImageAccessId": "8584858362081120256",
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8584858366786588672",
+        "productBigImage": null,
+        "productBigImageAccessId": "8584858365814050816",
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8584858369898897408",
+        "productBigImage": null,
+        "productBigImageAccessId": "8584858369026887680",
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "G-Switch GT-TC072A-H045-L1",
+    "componentSpecificationEn": "SMD-3P,4.5x4.5mm",
+    "describe": "-40℃~+85℃ 1.6N 100,000 Cycles 12V 4.5mm 4.5mm 4.5mm 50mA Black No Round Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD-3P,4.5x4.5mm Tactile Switches ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C5117858",
+        "attribute_value_name": "-40℃~+85℃"
+      },
+      {
+        "attribute_name_en": "Contact Current",
+        "component_code": "C5117858",
+        "attribute_value_name": "50mA"
+      },
+      {
+        "attribute_name_en": "Termination Style",
+        "component_code": "C5117858",
+        "attribute_value_name": "SMD(SMT) Tab"
+      },
+      {
+        "attribute_name_en": "Voltage Rating",
+        "component_code": "C5117858",
+        "attribute_value_name": "12V"
+      },
+      {
+        "attribute_name_en": "Actuator Style",
+        "component_code": "C5117858",
+        "attribute_value_name": "Round Button"
+      },
+      {
+        "attribute_name_en": "with Bracket",
+        "component_code": "C5117858",
+        "attribute_value_name": "With Bracket"
+      },
+      {
+        "attribute_name_en": "Switch Height",
+        "component_code": "C5117858",
+        "attribute_value_name": "4.5mm"
+      },
+      {
+        "attribute_name_en": "Circuit",
+        "component_code": "C5117858",
+        "attribute_value_name": "SPST"
+      },
+      {
+        "attribute_name_en": "Mounting Type",
+        "component_code": "C5117858",
+        "attribute_value_name": "Surface Mount, Right Angle"
+      },
+      {
+        "attribute_name_en": "Actuator/Cap Color",
+        "component_code": "C5117858",
+        "attribute_value_name": "Black"
+      },
+      {
+        "attribute_name_en": "Operating Force",
+        "component_code": "C5117858",
+        "attribute_value_name": "1.6N"
+      },
+      {
+        "attribute_name_en": "Length",
+        "component_code": "C5117858",
+        "attribute_value_name": "4.5mm"
+      },
+      {
+        "attribute_name_en": "Life",
+        "component_code": "C5117858",
+        "attribute_value_name": "100,000 Cycles"
+      },
+      {
+        "attribute_name_en": "With Lamp",
+        "component_code": "C5117858",
+        "attribute_value_name": "No"
+      },
+      {
+        "attribute_name_en": "Width",
+        "component_code": "C5117858",
+        "attribute_value_name": "4.5mm"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Switches",
+    "secondSortName": "Tactile Switches",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 5694714,
+    "componentDesignator": "SW",
+    "componentSource": "shop",
+    "stockCount": 1128,
+    "overseasStockCount": 1128,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5117858",
+        "startNumber": 1,
+        "endNumber": 49,
+        "productPrice": 0.0668,
+        "erpComponentPriceKeyId": 162612970185789574,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5117858",
+        "startNumber": 50,
+        "endNumber": 149,
+        "productPrice": 0.0653,
+        "erpComponentPriceKeyId": 162612970185789576,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5117858",
+        "startNumber": 150,
+        "endNumber": 499,
+        "productPrice": 0.0642,
+        "erpComponentPriceKeyId": 162612970185789575,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5117858",
+        "startNumber": 500,
+        "endNumber": 509,
+        "productPrice": 0.0632,
+        "erpComponentPriceKeyId": 162612970185789573,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5117858",
+        "startNumber": 510,
+        "endNumber": 519,
+        "productPrice": 0.0632,
+        "erpComponentPriceKeyId": 162612970185789571,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C5117858",
+        "startNumber": 520,
+        "endNumber": -1,
+        "productPrice": 0.0632,
+        "erpComponentPriceKeyId": 162612970185789572,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 900,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.048,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/tactile-switches_g-switch-gt-tc072a-h045-l1_C5117858.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "4.5×4.5 侧按轻触开关 H4.5mm 160gf",
+    "lossNumber": 2,
+    "secondTypeNameEn": "Tactile Switches",
+    "firstTypeNameEn": "Switches",
+    "secondTypeNameId": 2970,
+    "firstTypeNameId": 14,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 1128,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0668,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 132,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "-",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388717,
+    "overseasComponentBrandBizKey": "385285318515888130",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": null,
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "G-Switch-40℃~+85℃ 1.6N 100,000 Cycles 12V 4.5mm 4.5mm 4.5mm 50mA Black No Round Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD-3P,4.5x4.5mm Tactile Switches ROHS"
+  },
+  "message": null
+}
