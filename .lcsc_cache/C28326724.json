@@ -1,0 +1,269 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C28326724",
+    "componentBrandEn": "LUTE",
+    "componentModelEn": "0603L050/24AR",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8585884473863122944",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407111430_LUTE-0603L050-24AR_C28326724.pdf",
+    "dataManualFileAccessId": "8603363833276739584",
+    "dataManualOfficialLink": "",
+    "componentName": "LUTE 0603L050/24AR",
+    "minImage": "",
+    "minImageAccessId": "8585884476144553984",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8585884476144553984",
+        "productBigImage": null,
+        "productBigImageAccessId": "8585884473863122944",
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8585884479180824576",
+        "productBigImage": null,
+        "productBigImageAccessId": "8585884478330056704",
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8585884482372554752",
+        "productBigImage": null,
+        "productBigImageAccessId": "8585884481488367616",
+        "fileType": 3
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "LUTE 0603L050/24AR",
+    "componentSpecificationEn": "0603",
+    "describe": "-40℃~+85℃ 1.05mm 1.15mm 1.85mm 100mΩ 150ms 1A 24V 40A 500mA 800mW 850mΩ 0603 Resettable Fuses ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C28326724",
+        "attribute_value_name": "-40℃~+85℃"
+      },
+      {
+        "attribute_name_en": "Power Dissipation",
+        "component_code": "C28326724",
+        "attribute_value_name": "800mW"
+      },
+      {
+        "attribute_name_en": "Voltage - Max",
+        "component_code": "C28326724",
+        "attribute_value_name": "24V"
+      },
+      {
+        "attribute_name_en": "Time to Trip(Max)",
+        "component_code": "C28326724",
+        "attribute_value_name": "150ms"
+      },
+      {
+        "attribute_name_en": "Length",
+        "component_code": "C28326724",
+        "attribute_value_name": "1.85mm"
+      },
+      {
+        "attribute_name_en": "Resistance - Initial (Ri) (Min)",
+        "component_code": "C28326724",
+        "attribute_value_name": "100mΩ"
+      },
+      {
+        "attribute_name_en": "Trip Current",
+        "component_code": "C28326724",
+        "attribute_value_name": "1A"
+      },
+      {
+        "attribute_name_en": "Pitch",
+        "component_code": "C28326724",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Hold Current",
+        "component_code": "C28326724",
+        "attribute_value_name": "500mA"
+      },
+      {
+        "attribute_name_en": "Height",
+        "component_code": "C28326724",
+        "attribute_value_name": "1.15mm"
+      },
+      {
+        "attribute_name_en": "Current - Max",
+        "component_code": "C28326724",
+        "attribute_value_name": "40A"
+      },
+      {
+        "attribute_name_en": "Width",
+        "component_code": "C28326724",
+        "attribute_value_name": "1.05mm"
+      },
+      {
+        "attribute_name_en": "Resistance - Post Trip (R1) (Max)",
+        "component_code": "C28326724",
+        "attribute_value_name": "850mΩ"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Circuit Protection",
+    "secondSortName": "Resettable Fuses",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 30063200,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 21902,
+    "overseasStockCount": 21902,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C28326724",
+        "startNumber": 1,
+        "endNumber": 99,
+        "productPrice": 0.0669,
+        "erpComponentPriceKeyId": 356704316435701873,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C28326724",
+        "startNumber": 100,
+        "endNumber": 299,
+        "productPrice": 0.0543,
+        "erpComponentPriceKeyId": 356704316435701875,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C28326724",
+        "startNumber": 300,
+        "endNumber": 999,
+        "productPrice": 0.048,
+        "erpComponentPriceKeyId": 356704316435701877,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C28326724",
+        "startNumber": 1000,
+        "endNumber": 4999,
+        "productPrice": 0.0432,
+        "erpComponentPriceKeyId": 356704316435701876,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C28326724",
+        "startNumber": 5000,
+        "endNumber": 9999,
+        "productPrice": 0.0395,
+        "erpComponentPriceKeyId": 356704316435701872,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C28326724",
+        "startNumber": 10000,
+        "endNumber": -1,
+        "productPrice": 0.0377,
+        "erpComponentPriceKeyId": 356704316435701874,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 4000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.048,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/resettable-fuses_lute-0603l050-24ar_C28326724.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "24V 0.50A 0603 自恢复",
+    "lossNumber": 4,
+    "secondTypeNameEn": "Resettable Fuses",
+    "firstTypeNameEn": "Circuit Protection",
+    "secondTypeNameId": 3294,
+    "firstTypeNameId": 11,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 21522,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0669,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 158,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "-",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244509325902000,
+    "overseasComponentBrandBizKey": "385285331610505217",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "",
+    "hotFlag": null,
+    "matchedPartDetail": "LUTE-40℃~+85℃ 1.05mm 1.15mm 1.85mm 100mΩ 150ms 1A 24V 40A 500mA 800mW 850mΩ 0603 Resettable Fuses ROHS",
+    "storyGoods": false
+  },
+  "message": null
+}

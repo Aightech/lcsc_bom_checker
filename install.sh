@@ -8,6 +8,12 @@ TARGET_DIR="$HOME/.local/bin"
 
 echo "Installing $SCRIPT_NAME into $TARGET_DIR ..."
 
+directory=$(pwd)
+echo "Current directory: $directory"
+
+# transform "--cache", default=".lcsc_cache" to "--cache, default=${directory}/.lcsc_cache"
+sed "s|cache\", default=\".lcsc_cache\"|cache\", default=\"$(pwd)/.lcsc_cache\"|g" lcsc_bom_checkerC.py > lcsc_bom_checker.py
+
 # Ensure ~/.local/bin exists
 mkdir -p "$TARGET_DIR"
 

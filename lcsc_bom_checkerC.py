@@ -333,14 +333,7 @@ def compare(parsed: ParsedComment, data: Dict[str, Any]) -> Dict[str, Any]:
             fallback_note = f"tokens matched: {sorted(list(inter))[:6]}"
         else:
             issues.append("no clear feature match and low token overlap")
-
     status = "OK" if issues == [] else ("WARN" if matches else "FAIL")
-    if status == "OK":
-        print(f"\033[92mOK\033[0m match for '{parsed.raw}' → {matches}")
-    if status == "FAIL":
-        # print FAIL in red
-        print(f"\033[91mFAIL\033[0m mismatch for '{parsed.raw}' → {issues}")
-        print(f"  LCSC : {data}")
     return {
         "status": status,
         "matches": ";".join(matches) if matches else "",
@@ -409,7 +402,7 @@ def main():
         args.rate = 4.0
     min_dt = 1.0 / max(args.rate, 0.001)
 
-
+    total_price = 0.0
     for r in body:
         # guard against ragged rows
         r = r + [""] * (len(header) - len(r))
@@ -438,6 +431,41 @@ def main():
         parsed = parse_comment(comment)
         cmpres = compare(parsed, info)
 
+        # get parts quality, price and stock info
+        # print(f"qty in design: {qty}")
+        # if "initialPrice" in fetched["data"]:
+        price = float(fetched["data"]["data"].get("initialPrice"))
+        stock = int(fetched["data"]["data"].get("stockCount"))
+        qty = int(qty) if qty.isdigit() else 1
+
+        # print(f"{parsed.raw} ({lcsc_code}):\t", end="")
+        # align output: part name (<10char or padded) + LCSC code (10char) + status
+        pname = parsed.raw if len(parsed.raw) <= 13 else (parsed.raw[:11] + "..")
+        print(f"{pname:13} {lcsc_code:12} ", end="")
+        if cmpres["status"] == "OK":
+            ma = cmpres["matches"] if len(cmpres["matches"]) <= 11 else (cmpres["matches"][:11])
+            print(f"\033[92mMATCH\033[0m {ma:11}", end="")
+        if cmpres["status"] == "FAIL":
+            # print FAIL in red
+            print(f"\033[91mMISMATCH\033[0m {cmpres["issues"]}")
+            print(f"  LCSC : {info}")
+
+        stock_str = ""
+        if stock == 0:
+            stock_str = "\033[91mOUT OF STOCK\033[0m"
+        elif stock < qty:
+            stock_str="\033[93mLOW STOCK\033[0m"
+        else:
+            stock_str=f"\033[92m{stock}\033[0m in stock"
+
+        print(f" | {stock_str:26} ", end="")
+        
+        print(f" | {price:6}$ each", end="")
+        
+        print("")
+
+
+
         out_rows.append([
             cmpres["status"],
             refdes,
@@ -450,6 +478,12 @@ def main():
             cmpres["issues"],
             cmpres["fallback"],
         ])
+
+        total_price += price * qty
+
+
+
+        
 
     out_path = Path(args.out)
     with out_path.open("w", newline="", encoding="utf-8") as f:
@@ -464,6 +498,7 @@ def main():
     na = sum(1 for r in out_rows[1:] if r[0] == "N/A")
     print(f"Checked {total} rows → OK={ok}, WARN={warn}, FAIL={fail}, N/A={na}")
     print(f"Wrote: {out_path}")
+    print(f"Estimated total price (at qty): ${total_price:.2f} (without shipping/tax)")
 
 if __name__ == "__main__":
     main()
