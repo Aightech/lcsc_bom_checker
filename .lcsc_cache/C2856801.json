@@ -1,0 +1,275 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C2856801",
+    "componentBrandEn": "XUNPU",
+    "componentModelEn": "FPC-05F-16PH20",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583588481758580736",
+    "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109221030_XUNPU-FPC-05F-16PH20_C2856801.pdf",
+    "dataManualFileAccessId": "8588944259814318080",
+    "dataManualOfficialLink": "",
+    "componentName": "XUNPU FPC-05F-16PH20",
+    "minImage": "",
+    "minImageAccessId": "8583588482611105792",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583588482611105792",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583588481758580736",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583588485597450240",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583588484741677056",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583588488431718400",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583588487618564096",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583588491683385344",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583588490827476992",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "XUNPU FPC-05F-16PH20",
+    "componentSpecificationEn": "SMD,P=0.5mm,Surface Mount，Right Angle",
+    "describe": "-25℃~+85℃ 0.3mm 0.5mm 16P 2mm 500mA 50V Bottom Contact Hinged Lid Phosphor Bronze Surface Mount, Right Angle Tin SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C2856801",
+        "attribute_value_name": "-25℃~+85℃"
+      },
+      {
+        "attribute_name_en": "Locking Feature",
+        "component_code": "C2856801",
+        "attribute_value_name": "Hinged Lid"
+      },
+      {
+        "attribute_name_en": "Rated Voltage (Max)",
+        "component_code": "C2856801",
+        "attribute_value_name": "50V"
+      },
+      {
+        "attribute_name_en": "Current Rating (Max)",
+        "component_code": "C2856801",
+        "attribute_value_name": "500mA"
+      },
+      {
+        "attribute_name_en": "Contact Plating",
+        "component_code": "C2856801",
+        "attribute_value_name": "Tin"
+      },
+      {
+        "attribute_name_en": "Contact Material",
+        "component_code": "C2856801",
+        "attribute_value_name": "Phosphor Bronze"
+      },
+      {
+        "attribute_name_en": "Pitch",
+        "component_code": "C2856801",
+        "attribute_value_name": "0.5mm"
+      },
+      {
+        "attribute_name_en": "Number of Contacts",
+        "component_code": "C2856801",
+        "attribute_value_name": "16P"
+      },
+      {
+        "attribute_name_en": "Contact Type",
+        "component_code": "C2856801",
+        "attribute_value_name": "Bottom Contact"
+      },
+      {
+        "attribute_name_en": "Height Above Board",
+        "component_code": "C2856801",
+        "attribute_value_name": "2mm"
+      },
+      {
+        "attribute_name_en": "Mounting Type",
+        "component_code": "C2856801",
+        "attribute_value_name": "Surface Mount, Right Angle"
+      },
+      {
+        "attribute_name_en": "FFC, FCB Thickness",
+        "component_code": "C2856801",
+        "attribute_value_name": "0.3mm"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Connectors",
+    "secondSortName": "FFC, FPC (Flat Flexible) Connector Assemblies",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 3056899,
+    "componentDesignator": "FPC",
+    "componentSource": "shop",
+    "stockCount": 21188,
+    "overseasStockCount": 21188,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2856801",
+        "startNumber": 1,
+        "endNumber": 49,
+        "productPrice": 0.0915,
+        "erpComponentPriceKeyId": 341646172,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2856801",
+        "startNumber": 50,
+        "endNumber": 149,
+        "productPrice": 0.0732,
+        "erpComponentPriceKeyId": 341646174,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2856801",
+        "startNumber": 150,
+        "endNumber": 499,
+        "productPrice": 0.0643,
+        "erpComponentPriceKeyId": 341646177,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2856801",
+        "startNumber": 500,
+        "endNumber": 1999,
+        "productPrice": 0.0574,
+        "erpComponentPriceKeyId": 341646179,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2856801",
+        "startNumber": 2000,
+        "endNumber": 3999,
+        "productPrice": 0.0471,
+        "erpComponentPriceKeyId": 341646175,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2856801",
+        "startNumber": 4000,
+        "endNumber": -1,
+        "productPrice": 0.0443,
+        "erpComponentPriceKeyId": 341646178,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 2000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 1,
+    "leastNumberPrice": 0.0133,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/ffc-fpc-flat-flexible-connector-assemblies_xunpu-fpc-05f-16ph20_C2856801.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "翻盖式 下接 P数:16P 间距:0.5mm",
+    "lossNumber": 0,
+    "secondTypeNameEn": "FFC, FPC (Flat Flexible) Connector Assemblies",
+    "firstTypeNameEn": "Connectors",
+    "secondTypeNameId": 3051,
+    "firstTypeNameId": 8,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 20841,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0915,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 119,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 0,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388798,
+    "overseasComponentBrandBizKey": "385285312048271362",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": null,
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "XUNPU-25℃~+85℃ 0.3mm 0.5mm 16P 2mm 500mA 50V Bottom Contact Hinged Lid Phosphor Bronze Surface Mount, Right Angle Tin SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+  },
+  "message": null
+}

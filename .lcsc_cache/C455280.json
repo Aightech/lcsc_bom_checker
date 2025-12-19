@@ -1,0 +1,285 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C455280",
+    "componentBrandEn": "XUNPU",
+    "componentModelEn": "TS-1088R-02026",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583054208933777408",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088R-02026_C455280.pdf",
+    "dataManualFileAccessId": "8588886922807169025",
+    "dataManualOfficialLink": "",
+    "componentName": "XUNPU TS-1088R-02026",
+    "minImage": "",
+    "minImageAccessId": "8583054209939329024",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583054209939329024",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583054208933777408",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583054213131735040",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583054212247142400",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583054216030404608",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583054215157583872",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583054219275984896",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583054218299117568",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "XUNPU TS-1088R-02026",
+    "componentSpecificationEn": "SMD,4x3mm",
+    "describe": "100,000 Cycles 12V 2.6N 2.93mm 2mm 3.9mm 50mA Black Round Button SMD(SMT) Tab SPST Surface Mount,Vertical Without Bracket SMD,4x3mm Tactile Switches ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Contact Current",
+        "component_code": "C455280",
+        "attribute_value_name": "50mA"
+      },
+      {
+        "attribute_name_en": "Termination Style",
+        "component_code": "C455280",
+        "attribute_value_name": "SMD(SMT) Tab"
+      },
+      {
+        "attribute_name_en": "Voltage Rating",
+        "component_code": "C455280",
+        "attribute_value_name": "12V"
+      },
+      {
+        "attribute_name_en": "Actuator Style",
+        "component_code": "C455280",
+        "attribute_value_name": "Round Button"
+      },
+      {
+        "attribute_name_en": "with Bracket",
+        "component_code": "C455280",
+        "attribute_value_name": "Without Bracket"
+      },
+      {
+        "attribute_name_en": "Switch Height",
+        "component_code": "C455280",
+        "attribute_value_name": "2mm"
+      },
+      {
+        "attribute_name_en": "Circuit",
+        "component_code": "C455280",
+        "attribute_value_name": "SPST"
+      },
+      {
+        "attribute_name_en": "Mounting Type",
+        "component_code": "C455280",
+        "attribute_value_name": "Surface Mount,Vertical"
+      },
+      {
+        "attribute_name_en": "Actuator/Cap Color",
+        "component_code": "C455280",
+        "attribute_value_name": "Black"
+      },
+      {
+        "attribute_name_en": "Operating Force",
+        "component_code": "C455280",
+        "attribute_value_name": "2.6N"
+      },
+      {
+        "attribute_name_en": "Length",
+        "component_code": "C455280",
+        "attribute_value_name": "3.9mm"
+      },
+      {
+        "attribute_name_en": "Life",
+        "component_code": "C455280",
+        "attribute_value_name": "100,000 Cycles"
+      },
+      {
+        "attribute_name_en": "With Lamp",
+        "component_code": "C455280",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Width",
+        "component_code": "C455280",
+        "attribute_value_name": "2.93mm"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Switches",
+    "secondSortName": "Tactile Switches",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 457635,
+    "componentDesignator": "K",
+    "componentSource": "shop",
+    "stockCount": 92777,
+    "overseasStockCount": 92777,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C455280",
+        "startNumber": 1,
+        "endNumber": 99,
+        "productPrice": 0.0473,
+        "erpComponentPriceKeyId": 324230662,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C455280",
+        "startNumber": 100,
+        "endNumber": 299,
+        "productPrice": 0.038,
+        "erpComponentPriceKeyId": 324230668,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C455280",
+        "startNumber": 300,
+        "endNumber": 999,
+        "productPrice": 0.0332,
+        "erpComponentPriceKeyId": 324230664,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C455280",
+        "startNumber": 1000,
+        "endNumber": 3999,
+        "productPrice": 0.0293,
+        "erpComponentPriceKeyId": 324230666,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C455280",
+        "startNumber": 4000,
+        "endNumber": 7999,
+        "productPrice": 0.0275,
+        "erpComponentPriceKeyId": 324230670,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C455280",
+        "startNumber": 8000,
+        "endNumber": -1,
+        "productPrice": 0.0266,
+        "erpComponentPriceKeyId": 324230660,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 4000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.034,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/tactile-switches_xunpu-ts-1088r-02026_C455280.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "3.9*2.93*2mm 立贴 轻触开关",
+    "lossNumber": 2,
+    "secondTypeNameEn": "Tactile Switches",
+    "firstTypeNameEn": "Switches",
+    "secondTypeNameId": 2970,
+    "firstTypeNameId": 14,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 87408,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0473,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 226,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388717,
+    "overseasComponentBrandBizKey": "385285312048271362",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": null,
+    "hotFlag": null,
+    "matchedPartDetail": "XUNPU100,000 Cycles 12V 2.6N 2.93mm 2mm 3.9mm 50mA Black Round Button SMD(SMT) Tab SPST Surface Mount,Vertical Without Bracket SMD,4x3mm Tactile Switches ROHS",
+    "storyGoods": false
+  },
+  "message": null
+}

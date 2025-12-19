@@ -18,6 +18,7 @@
         "productImageAccessId": "8568525582310957056",
         "productBigImage": null,
         "productBigImageAccessId": "8568525581300404224",
+        "componentImageAccessId": null,
         "fileType": 1
       },
       {
@@ -25,6 +26,7 @@
         "productImageAccessId": "8568525591148085248",
         "productBigImage": null,
         "productBigImageAccessId": "8568525590141587456",
+        "componentImageAccessId": null,
         "fileType": 2
       },
       {
@@ -32,6 +34,7 @@
         "productImageAccessId": "8568525596152569856",
         "productBigImage": null,
         "productBigImageAccessId": "8568525595250524160",
+        "componentImageAccessId": null,
         "fileType": 3
       },
       {
@@ -39,6 +42,7 @@
         "productImageAccessId": "8568525605849530368",
         "productBigImage": null,
         "productBigImageAccessId": "8568525604867923968",
+        "componentImageAccessId": null,
         "fileType": 4
       }
     ],
@@ -96,8 +100,8 @@
     "lcscComponentId": 26487,
     "componentDesignator": "R",
     "componentSource": "shop",
-    "stockCount": 16377897,
-    "overseasStockCount": 16377897,
+    "stockCount": 19991406,
+    "overseasStockCount": 19991406,
     "prices": [
       {
         "componentPriceKeyId": null,
@@ -134,7 +138,7 @@
         "componentCode": "C25744",
         "startNumber": 3000,
         "endNumber": 9999,
-        "productPrice": 0.0003,
+        "productPrice": 0.0004,
         "erpComponentPriceKeyId": 310594294,
         "createTime": null,
         "updateTime": null,
@@ -148,7 +152,7 @@
         "componentCode": "C25744",
         "startNumber": 10000,
         "endNumber": 49999,
-        "productPrice": 0.0003,
+        "productPrice": 0.0004,
         "erpComponentPriceKeyId": 310594292,
         "createTime": null,
         "updateTime": null,
@@ -201,7 +205,7 @@
     "firstTypeNameId": 1,
     "warehouseCode": "sz",
     "warehouseName": "深圳",
-    "canPresaleNumber": 14189663,
+    "canPresaleNumber": 17268023,
     "minPresaleNumber": 0,
     "theRatio": null,
     "componentStatus": "yes",

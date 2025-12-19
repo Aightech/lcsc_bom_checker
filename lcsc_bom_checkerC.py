@@ -33,8 +33,10 @@ Notes:
 from __future__ import annotations
 import argparse, csv, json, os, re, sys, time, math, hashlib
 from pathlib import Path
-from typing import Dict, Any, Optional
 from dataclasses import dataclass
+from difflib import SequenceMatcher
+from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
+
 try:
     import requests
 except Exception:
@@ -46,7 +48,12 @@ UA = "Mozilla/5.0 (LCSC BOM checker)"
 # ---- Utilities ----------------------------------------------------------------
 PKG_RE = re.compile(r"\b(0[40612]{3}|1206|1210|2010|2512)\b")
 CAP_RE = re.compile(r"(?P<val>\d+(\.\d+)?)\s*(?P<u>f|uf|μf|nf|pf)\b", re.I)
-RES_RE = re.compile(r"(?P<val>\d+(\.\d+)?)(?P<u>\s*(m|k|meg)?\s*ohm|[km]Ω|mΩ|Ω)\b", re.I)
+RES_RE = re.compile(
+    r"(?P<val>\d+(?:\.\d+)?)\s*"
+    r"(?P<u>(?:m|k|meg)?\s*ohm|[km]Ω|mΩ|Ω)"
+    r"(?=$|[^0-9A-Za-z_])",
+    re.I
+)
 IND_RE = re.compile(r"(?P<val>\d+(\.\d+)?)\s*(?P<u>uh|μh|nh|h)\b", re.I)
 VOLT_RE = re.compile(r"(?P<v>\d+(\.\d+)?)\s*V\b", re.I)
 POW_RE = re.compile(r"(?P<p>\d+(\.\d+)?)(\s*(W|mW))\b", re.I)
@@ -181,6 +188,7 @@ def fetch_lcsc(code: str, timeout: float, cache_dir: Optional[Path]=None,
         # cache
         if cache_dir:
             (cache_dir / f"{code}.json").write_text(json.dumps(j, ensure_ascii=False, indent=2), encoding="utf-8")
+        # print(j)
         return {"success": True, "data": j}
     except Exception as e:
         return {"success": False, "msg": f"request error: {e}"}
@@ -252,6 +260,7 @@ def compare(parsed: ParsedComment, data: Dict[str, Any]) -> Dict[str, Any]:
 
     # Package
     if parsed.package and data.get("package"):
+        print(f"Comparing package: BOM={parsed.package} vs LCSC={data['package']}")
         if parsed.package == data["package"]:
             matches.append("package")
         else:
@@ -341,6 +350,316 @@ def compare(parsed: ParsedComment, data: Dict[str, Any]) -> Dict[str, Any]:
         "fallback": fallback_note or "",
     }
 
+# -----------------------------
+# Normalization dictionaries
+# -----------------------------
+
+# Imperial SMD size -> metric code (mm*1000-ish used by KiCad) and vice versa
+# (only add what you actually use; safe to extend)
+IMPERIAL_TO_METRIC = {
+    "0201": "0603",  # 0.6x0.3 mm
+    "0402": "1005",  # 1.0x0.5 mm
+    "0603": "1608",  # 1.6x0.8 mm
+    "0805": "2012",
+    "1206": "3216",
+    "1210": "3225",
+    "1812": "4532",
+}
+METRIC_TO_IMPERIAL = {v: k for k, v in IMPERIAL_TO_METRIC.items()}
+
+# Package family aliases / normalization
+PKG_ALIASES = {
+    "WSON": {"WSON", "VSON", "DFN", "SON"},  # lots of ambiguity; treat as family signals
+    "QFN": {"QFN", "VQFN", "MLF"},
+    "LGA": {"LGA"},
+    "BGA": {"BGA", "DSBGA", "WLCSP", "CSP"},
+    "UDFN": {"UDFN", "DFN"},
+    "X2SON": {"X2SON", "XSON", "SON"},
+    "SOT": {"SOT", "SOT23", "SOT-23", "SOT-563", "SOT563"},
+    "SOP": {"SOP", "SOIC", "TSSOP", "MSOP", "SSOP"},
+    "SOD": {"SOD", "SOD123", "SOD-123", "SOD323", "SOD-323"},
+}
+
+# Helpful regexes
+RE_IMPERIAL = re.compile(r"\b(0201|0402|0603|0805|1206|1210|1812)\b")
+RE_METRIC = re.compile(r"\b(0603|1005|1608|2012|3216|3225|4532)\b")
+RE_METRIC_KICAD = re.compile(r"\b(\d{4})Metric\b", re.IGNORECASE)
+
+# Embedded, but guarded:
+# - optional common prefix letters (C/R/L/D/F) right before the code
+# - left side must be start or a non-alnum
+# - right side must be end or a non-digit (prevents 0603 in 06030)
+# - case-insensitive for prefixes
+RE_IMPERIAL_EMBED = re.compile(
+    r"(?i)(?:^|[^A-Z0-9])(?:[CRLDF])?(0201|0402|0603|0805|1206|1210|1812)(?=$|[^0-9])"
+)
+
+RE_METRIC_EMBED = re.compile(
+    r"(?i)(?:^|[^A-Z0-9])(?:[CRLDF])?(0603|1005|1608|2012|3216|3225|4532)(?=$|[^0-9])"
+)
+
+RE_PITCH = re.compile(r"\bP\s*([0-9]+(?:\.[0-9]+)?)\b", re.IGNORECASE)
+RE_LW = re.compile(r"\bL\s*([0-9]+(?:\.[0-9]+)?)\s*[-_ ]?W\s*([0-9]+(?:\.[0-9]+)?)\b", re.IGNORECASE)
+RE_DIM_X = re.compile(r"\b([0-9]+(?:\.[0-9]+)?)\s*[x×]\s*([0-9]+(?:\.[0-9]+)?)\b", re.IGNORECASE)
+RE_PINS = re.compile(r"\b(\d+)\s*P\b|\b(\d+)\s*pin\b|\b(\d+)\s*pins\b", re.IGNORECASE)
+RE_QFN_PAREN = re.compile(r"\bQFN[- ]?(\d+)\s*\(\s*([0-9.]+)\s*[x×]\s*([0-9.]+)\s*\)", re.IGNORECASE)
+RE_SMD2016 = re.compile(r"\bSMD\s*2016\b", re.IGNORECASE)
+
+
+@dataclass
+class Signals:
+    sizes_imperial: Set[str]         # e.g. {"0402"}
+    sizes_metric: Set[str]           # e.g. {"1005"}
+    family_tokens: Set[str]          # e.g. {"QFN", "WSON", "BGA"}
+    pin_counts: Set[int]             # e.g. {56}
+    dims_mm: Set[Tuple[float, float]]# e.g. {(7.0, 7.0), (2.0, 1.6)}
+    pitches_mm: Set[float]           # e.g. {0.4}
+
+    def canonical_sizes(self) -> Set[str]:
+        """
+        Return canonical set of size codes, preferring imperial but keeping both.
+        """
+        out = set(self.sizes_imperial)
+        # convert metric -> imperial where possible
+        for m in self.sizes_metric:
+            if m in METRIC_TO_IMPERIAL:
+                out.add(METRIC_TO_IMPERIAL[m])
+        # also convert imperial -> metric if needed (not returned by default)
+        return out
+
+    def canonical_metric_sizes(self) -> Set[str]:
+        out = set(self.sizes_metric)
+        for i in self.sizes_imperial:
+            if i in IMPERIAL_TO_METRIC:
+                out.add(IMPERIAL_TO_METRIC[i])
+        return out
+
+
+def _norm_family_token(tok: str) -> Optional[str]:
+    t = tok.upper().replace("–", "-").strip()
+    for canonical, aliases in PKG_ALIASES.items():
+        if t == canonical:
+            return canonical
+        if t in aliases:
+            return canonical
+    # handle common explicit forms
+    if t.startswith("QFN"):
+        return "QFN"
+    if t.endswith("BGA") or "BGA" in t:
+        return "BGA"
+    return None
+
+
+def extract_signals_from_text(text: str) -> Signals:
+    text_u = (text or "").upper()
+
+    sizes_imp = set(RE_IMPERIAL.findall(text_u))
+    sizes_met = set(RE_METRIC.findall(text_u))
+
+    if not sizes_imp:
+        sizes_imp = set(RE_IMPERIAL_EMBED.findall(text_u))
+    if not sizes_met:
+        sizes_met = set(RE_METRIC_EMBED.findall(text_u))
+    # KiCad style "1005Metric" etc
+    for m in RE_METRIC_KICAD.findall(text_u):
+        sizes_met.add(m)
+
+    families: Set[str] = set()
+    for raw in re.findall(r"[A-Z0-9]+(?:-[A-Z0-9]+)*", text_u):
+        fam = _norm_family_token(raw)
+        if fam:
+            families.add(fam)
+
+    pins: Set[int] = set()
+    for a, b, c in RE_PINS.findall(text_u):
+        n = a or b or c
+        if n:
+            pins.add(int(n))
+
+    # QFN-56(7x7)
+    m = RE_QFN_PAREN.search(text_u)
+    dims: Set[Tuple[float, float]] = set()
+    if m:
+        pins.add(int(m.group(1)))
+        dims.add((float(m.group(2)), float(m.group(3))))
+        families.add("QFN")
+
+    # L7.0-W7.0 (KiCad custom footprint naming)
+    for lm in RE_LW.finditer(text_u):
+        dims.add((float(lm.group(1)), float(lm.group(2))))
+
+    # 7x7 patterns in vendor describe/model
+    for dm in RE_DIM_X.finditer(text_u):
+        a, b = float(dm.group(1)), float(dm.group(2))
+        # filter obviously-non-package dims (rare but helps reduce noise)
+        if 0.3 <= a <= 50 and 0.3 <= b <= 50:
+            dims.add((a, b))
+
+    pitches: Set[float] = set()
+    for pm in RE_PITCH.findall(text_u):
+        pitches.add(float(pm))
+
+    # Crystal shorthand: SMD2016 implies 2.0 x 1.6 mm
+    if RE_SMD2016.search(text_u):
+        dims.add((2.0, 1.6))
+
+    return Signals(
+        sizes_imperial=sizes_imp,
+        sizes_metric=sizes_met,
+        family_tokens=families,
+        pin_counts=pins,
+        dims_mm=dims,
+        pitches_mm=pitches,
+    )
+
+
+def extract_signals(bom_footprint: str, fetched: Dict[str, Any]) -> Tuple[Signals, Signals]:
+    # BOM signals: footprint string only (usually strongest)
+    bom_sig = extract_signals_from_text(bom_footprint)
+
+    # Fetched signals: combine package/describe/model/attributes values
+    parts: List[str] = []
+    for k in ("package", "describe", "brand", "model"):
+        v = fetched.get(k)
+        if v:
+            parts.append(str(v))
+    # attributes can contain more hints (sometimes includes "package" style text)
+    attrs = fetched.get("attributes", {})
+    if isinstance(attrs, dict):
+        for ak, av in attrs.items():
+            if av is None:
+                continue
+            parts.append(f"{ak}:{av}")
+    fetched_sig = extract_signals_from_text(" | ".join(parts))
+    
+    # If fetched['package'] is an exact imperial code, ensure it's captured
+    pkg = fetched.get("package")
+    if isinstance(pkg, str):
+        pkg_u = pkg.strip().upper()
+        if pkg_u in IMPERIAL_TO_METRIC:
+            fetched_sig.sizes_imperial.add(pkg_u)
+        if pkg_u in METRIC_TO_IMPERIAL:
+            fetched_sig.sizes_metric.add(pkg_u)
+
+    return bom_sig, fetched_sig
+
+
+def similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def _dims_close(d1: Tuple[float, float], d2: Tuple[float, float], tol: float = 0.15) -> bool:
+    # allow swapped L/W; tol in mm
+    (a1, b1), (a2, b2) = d1, d2
+    return (abs(a1 - a2) <= tol and abs(b1 - b2) <= tol) or (abs(a1 - b2) <= tol and abs(b1 - a2) <= tol)
+
+
+def judge_match(bom_fp: str, fetched: Dict[str, Any]) -> Tuple[str, str]:
+    """
+    Return (verdict, explanation).
+    verdict ∈ {"MATCH", "MISMATCH", "UNKNOWN"}
+    """
+    bom_sig, fet_sig = extract_signals(bom_fp, fetched)
+
+    # 1) Strong check for passive sizes (0201/0402/0603...) if present
+    bom_sizes = bom_sig.canonical_sizes()
+    fet_sizes = fet_sig.canonical_sizes()
+
+    if bom_sizes:
+        if fet_sizes:
+            if bom_sizes & fet_sizes:
+                return "MATCH", f"Passive size match: BOM {sorted(bom_sizes)} vs fetched {sorted(fet_sizes)}"
+            else:
+                return "MISMATCH", f"Passive size mismatch: BOM {sorted(bom_sizes)} vs fetched {sorted(fet_sizes)}"
+        else:
+            # fetched has no explicit size, but may have metric size
+            fet_metric = fet_sig.canonical_metric_sizes()
+            bom_metric = bom_sig.canonical_metric_sizes()
+            if bom_metric and fet_metric and (bom_metric & fet_metric):
+                return "MATCH", f"Passive metric-size match: BOM {sorted(bom_metric)} vs fetched {sorted(fet_metric)}"
+            return "UNKNOWN", f"BOM indicates passive size {sorted(bom_sizes)} but fetched has no size signal (package/describe/model missing size)"
+
+    # 2) For IC/connector packages: use family+pins+dims/pitch when available
+    bom_fam = bom_sig.family_tokens
+    fet_fam = fet_sig.family_tokens
+
+    # family intersection helps, but can be ambiguous (e.g., SON/DFN/WSON)
+    fam_hit = bool(bom_fam & fet_fam)
+
+    # pin count check if both have one (or both include the same pin count)
+    pin_hit = False
+    if bom_sig.pin_counts and fet_sig.pin_counts:
+        pin_hit = bool(bom_sig.pin_counts & fet_sig.pin_counts)
+
+    # dims check if both have dims
+    dim_hit = False
+    if bom_sig.dims_mm and fet_sig.dims_mm:
+        for d1 in bom_sig.dims_mm:
+            for d2 in fet_sig.dims_mm:
+                if _dims_close(d1, d2):
+                    dim_hit = True
+                    break
+            if dim_hit:
+                break
+
+    # pitch check if both have pitch
+    pitch_hit = False
+    if bom_sig.pitches_mm and fet_sig.pitches_mm:
+        for p1 in bom_sig.pitches_mm:
+            for p2 in fet_sig.pitches_mm:
+                if abs(p1 - p2) <= 0.02:
+                    pitch_hit = True
+                    break
+            if pitch_hit:
+                break
+
+    # decision logic:
+    # - If we have at least two independent confirming signals => MATCH
+    # - If we have a strong contradicting signal (pins mismatch OR dims mismatch) => MISMATCH
+    # - else UNKNOWN
+    confirms = sum([fam_hit, pin_hit, dim_hit, pitch_hit])
+    contradicts = 0
+
+    if bom_sig.pin_counts and fet_sig.pin_counts and not pin_hit:
+        contradicts += 1
+    if bom_sig.dims_mm and fet_sig.dims_mm and not dim_hit:
+        # dims mismatch is meaningful if BOM had a single clear dim and fetched had a single clear dim
+        if len(bom_sig.dims_mm) == 1 and len(fet_sig.dims_mm) == 1:
+            contradicts += 1
+
+    # If BOM looks like it encodes a very specific package name and fetched describe is generic,
+    # avoid false mismatches.
+    if contradicts >= 1 and confirms == 0:
+        return "MISMATCH", (
+            f"No match signals and at least one contradiction. "
+            f"BOM fam={sorted(bom_fam)} pins={sorted(bom_sig.pin_counts)} dims={sorted(bom_sig.dims_mm)} pitch={sorted(bom_sig.pitches_mm)} "
+            f"vs fetched fam={sorted(fet_fam)} pins={sorted(fet_sig.pin_counts)} dims={sorted(fet_sig.dims_mm)} pitch={sorted(fet_sig.pitches_mm)}"
+        )
+
+    if confirms >= 2:
+        return "MATCH", (
+            f"Confirmed by {confirms} signals (family/pins/dims/pitch). "
+            f"BOM fam={sorted(bom_fam)} pins={sorted(bom_sig.pin_counts)} dims={sorted(bom_sig.dims_mm)} pitch={sorted(bom_sig.pitches_mm)} "
+            f"vs fetched fam={sorted(fet_fam)} pins={sorted(fet_sig.pin_counts)} dims={sorted(fet_sig.dims_mm)} pitch={sorted(fet_sig.pitches_mm)}"
+        )
+
+    # weak single-signal match: treat as UNKNOWN unless it's a family+pins exact
+    if fam_hit and pin_hit:
+        return "MATCH", f"Family+pin match: fam={sorted(bom_fam & fet_fam)} pins={sorted(bom_sig.pin_counts & fet_sig.pin_counts)}"
+
+    s = ("Fam:" + f"{sorted(bom_fam)}" + "/" + f"{sorted(fet_fam)}" if (bom_fam or fet_fam) else "") + \
+        (" Pins:" + f"{sorted(bom_sig.pin_counts)}" + "/" + f"{sorted(fet_sig.pin_counts)}" if (bom_sig.pin_counts or fet_sig.pin_counts) else "") + \
+        (" Dims:" + f"{sorted(bom_sig.dims_mm)}" + "/" + f"{sorted(fet_sig.dims_mm)}" if (bom_sig.dims_mm or fet_sig.dims_mm) else "") + \
+        (" Pitch:" + f"{sorted(bom_sig.pitches_mm)}" + "/" + f"{sorted(fet_sig.pitches_mm)}" if (bom_sig.pitches_mm or fet_sig.pitches_mm) else "") 
+    if confirms == 1:
+        return "UNKNOWN", (
+            f"WEAK match: " + s
+        )
+
+    return "UNKNOWN", (
+        f"MISSING info: " + s
+    )
+
 # ---- Main ---------------------------------------------------------------------
 
 def find_col(header: list[str], candidates: list[str]) -> Optional[int]:
@@ -351,6 +670,7 @@ def find_col(header: list[str], candidates: list[str]) -> Optional[int]:
     return None
 
 def main():
+    print("LCSC BOM Checker")
     ap = argparse.ArgumentParser(description="Check BOM 'Comment' vs LCSC part data.")
     ap.add_argument("bom_csv", help="Path to BOM CSV file")
     ap.add_argument("--out", default="bom_check_report.csv", help="Output CSV report")
@@ -380,6 +700,7 @@ def main():
 
     idx_lcsc = find_col(header, ["lcsc", "lcsc#", "lcsc code", "lcsc_code"])
     idx_comment = find_col(header, ["comment", "comments", "value"])
+    idx_footprint = find_col(header, ["footprint", "package"])
     idx_ref = find_col(header, ["designator", "refdes", "ref", "designators"])
     idx_qty = find_col(header, ["qty", "quantity"])
 
@@ -389,6 +710,12 @@ def main():
     if idx_comment is None:
         print("ERROR: Cannot find a 'Comment'/'Comments'/'Value' column", file=sys.stderr)
         sys.exit(2)
+    if idx_ref is None:
+        print("WARNING: Cannot find 'RefDes' column; proceeding without it", file=sys.stderr)
+    if idx_qty is None:
+        print("WARNING: Cannot find 'Qty' column; proceeding without it", file=sys.stderr)
+    if idx_footprint is None:
+        print("WARNING: Cannot find 'Footprint' column; proceeding without it", file=sys.stderr)
 
     report_hdr = [
         "Status","RefDes","Qty","LCSC","BOM_Comment",
@@ -408,6 +735,7 @@ def main():
         r = r + [""] * (len(header) - len(r))
         lcsc_code = (r[idx_lcsc] or "").strip()
         comment = (r[idx_comment] or "").strip()
+        footprint = (r[idx_footprint] or "").strip() if idx_footprint is not None else ""
         refdes = (r[idx_ref] or "").strip() if idx_ref is not None else ""
         qty = (r[idx_qty] or "").strip() if idx_qty is not None else ""
 
@@ -428,9 +756,26 @@ def main():
             continue
 
         info = lcsc_describe(fetched["data"])
+
+        # print("")
+        # # print(info)
+        # print(f"BOM: {footprint}")
+        # print(f"Fetched LCSC {lcsc_code}: {info}")
+        # print("")
+        # print(f"Package match verdict: {verdict} ({why})")
+        
         parsed = parse_comment(comment)
         cmpres = compare(parsed, info)
-
+        verdict, why = judge_match(footprint, info)
+        cmpres["why"] = why
+        if cmpres["status"] == "OK" and verdict == "MATCH":
+            cmpres["status"] = "OK"
+        elif cmpres["status"] == "FAIL" or verdict == "MISMATCH":
+            cmpres["status"] = "FAIL"
+            if verdict == "MISMATCH":
+                cmpres["issues"] = "Package "
+        if verdict == "UNKNOWN":
+            cmpres["warn"] = "WARN"
         # get parts quality, price and stock info
         # print(f"qty in design: {qty}")
         # if "initialPrice" in fetched["data"]:
@@ -447,8 +792,8 @@ def main():
             print(f"\033[92mMATCH\033[0m {ma:11}", end="")
         if cmpres["status"] == "FAIL":
             # print FAIL in red
-            print(f"\033[91mMISMATCH\033[0m {cmpres["issues"]}")
-            print(f"  LCSC : {info}")
+            print(f"\033[91mMISMATCH\033[0m {cmpres["issues"]}", end="")
+            # print(f"  LCSC : {info}")
 
         stock_str = ""
         if stock == 0:
@@ -461,6 +806,12 @@ def main():
         print(f" | {stock_str:26} ", end="")
         
         print(f" | {price:6}$ each", end="")
+
+        print(f" | ", end="")
+        if cmpres["status"] == "FAIL":
+            print(cmpres["why"], end="")
+        if "warn" in cmpres:
+            print(why, end="")
         
         print("")
 

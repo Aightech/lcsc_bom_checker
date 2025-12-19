@@ -1,0 +1,267 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C919459",
+    "componentBrandEn": "Texas Instruments",
+    "componentModelEn": "TPS61023DRLR",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583285049021616128",
+    "dataManualUrl": "",
+    "dataManualFileAccessId": "",
+    "dataManualOfficialLink": "https://www.ti.com.cn/cn/lit/ds/symlink/tps61023.pdf?ts=1728812468331&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FTPS61023",
+    "componentName": "TI TPS61023DRLR",
+    "minImage": "",
+    "minImageAccessId": "8583285049927720960",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583285049927720960",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583285049021616128",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583285054679867392",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583285053861978112",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583285059638345728",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583285058681233408",
+        "componentImageAccessId": null,
+        "fileType": 3
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TI TPS61023DRLR",
+    "componentSpecificationEn": "SOT-563",
+    "describe": "-40℃~+125℃@(TJ) 1 1MHz 2.2V~5.5V 3A 3uA 500mV~5.5V Adjustable Boost Boost Built-in Yes SOT-563 DC-DC Converters ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C919459",
+        "attribute_value_name": "-40℃~+125℃@(TJ)"
+      },
+      {
+        "attribute_name_en": "Function",
+        "component_code": "C919459",
+        "attribute_value_name": "Boost"
+      },
+      {
+        "attribute_name_en": "Synchronous Rectifier",
+        "component_code": "C919459",
+        "attribute_value_name": "Yes"
+      },
+      {
+        "attribute_name_en": "Frequency - Switching",
+        "component_code": "C919459",
+        "attribute_value_name": "1MHz"
+      },
+      {
+        "attribute_name_en": "Output Type",
+        "component_code": "C919459",
+        "attribute_value_name": "Adjustable"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply",
+        "component_code": "C919459",
+        "attribute_value_name": "500mV~5.5V"
+      },
+      {
+        "attribute_name_en": "Output Current",
+        "component_code": "C919459",
+        "attribute_value_name": "3A"
+      },
+      {
+        "attribute_name_en": "Quiescent Current",
+        "component_code": "C919459",
+        "attribute_value_name": "3uA"
+      },
+      {
+        "attribute_name_en": "Switch tube (built-in/external)",
+        "component_code": "C919459",
+        "attribute_value_name": "Built-in"
+      },
+      {
+        "attribute_name_en": "Topology",
+        "component_code": "C919459",
+        "attribute_value_name": "Boost"
+      },
+      {
+        "attribute_name_en": "Output Voltage",
+        "component_code": "C919459",
+        "attribute_value_name": "2.2V~5.5V"
+      },
+      {
+        "attribute_name_en": "Number of Outputs",
+        "component_code": "C919459",
+        "attribute_value_name": "1"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Power Management (PMIC)",
+    "secondSortName": "DC-DC Converters",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 997354,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 10474,
+    "overseasStockCount": 10474,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C919459",
+        "startNumber": 1,
+        "endNumber": 49,
+        "productPrice": 0.2347,
+        "erpComponentPriceKeyId": 162867887,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C919459",
+        "startNumber": 50,
+        "endNumber": 149,
+        "productPrice": 0.1828,
+        "erpComponentPriceKeyId": 162867911,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C919459",
+        "startNumber": 150,
+        "endNumber": 499,
+        "productPrice": 0.1576,
+        "erpComponentPriceKeyId": 162867868,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C919459",
+        "startNumber": 500,
+        "endNumber": 2499,
+        "productPrice": 0.135,
+        "erpComponentPriceKeyId": 162867889,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C919459",
+        "startNumber": 2500,
+        "endNumber": 3999,
+        "productPrice": 0.1163,
+        "erpComponentPriceKeyId": 162867910,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C919459",
+        "startNumber": 4000,
+        "endNumber": -1,
+        "productPrice": 0.1127,
+        "erpComponentPriceKeyId": 162867908,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 4000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.1705,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/dc-dc-converters_texas-instruments-tps61023drlr_C919459.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "具有0.5V超低输入电压的3.7A升压转换器",
+    "lossNumber": 0,
+    "secondTypeNameEn": "DC-DC Converters",
+    "firstTypeNameEn": "Power Management (PMIC)",
+    "secondTypeNameId": 3005,
+    "firstTypeNameId": 9,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 9896,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.2347,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 38,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388752,
+    "overseasComponentBrandBizKey": "385285308357283842",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "Texas Instruments-40℃~+125℃@(TJ) 1 1MHz 2.2V~5.5V 3A 3uA 500mV~5.5V Adjustable Boost Boost Built-in Yes SOT-563 DC-DC Converters ROHS"
+  },
+  "message": null
+}

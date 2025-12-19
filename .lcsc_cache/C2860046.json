@@ -1,0 +1,267 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C2860046",
+    "componentBrandEn": "Texas Instruments",
+    "componentModelEn": "TPS7A0233PDQNR",
+    "componentImageUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230228_Texas-Instruments-TPS7A0233PDQNR_C2860046_front.jpg",
+    "productBigImageAccessId": null,
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121730_Texas-Instruments-TPS7A0233PDQNR_C2860046.pdf",
+    "dataManualFileAccessId": "8589040026566987776",
+    "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/tps7a02",
+    "componentName": "TI TPS7A0233PDQNR",
+    "minImage": "https://assets.lcsc.com/images/lcsc/96x96/20230228_Texas-Instruments-TPS7A0233PDQNR_C2860046_front.jpg",
+    "minImageAccessId": null,
+    "imageList": [
+      {
+        "productImage": "https://assets.lcsc.com/images/lcsc/96x96/20230228_Texas-Instruments-TPS7A0233PDQNR_C2860046_front.jpg",
+        "productImageAccessId": "",
+        "productBigImage": "https://assets.lcsc.com/images/lcsc/900x900/20230228_Texas-Instruments-TPS7A0233PDQNR_C2860046_front.jpg",
+        "productBigImageAccessId": "",
+        "componentImageAccessId": null,
+        "fileType": 0
+      },
+      {
+        "productImage": "https://assets.lcsc.com/images/lcsc/96x96/20230228_Texas-Instruments-TPS7A0233PDQNR_C2860046_back.jpg",
+        "productImageAccessId": "",
+        "productBigImage": "https://assets.lcsc.com/images/lcsc/900x900/20230228_Texas-Instruments-TPS7A0233PDQNR_C2860046_back.jpg",
+        "productBigImageAccessId": "",
+        "componentImageAccessId": null,
+        "fileType": 0
+      },
+      {
+        "productImage": "https://assets.lcsc.com/images/lcsc/96x96/20230228_Texas-Instruments-TPS7A0233PDQNR_C2860046_blank.jpg",
+        "productImageAccessId": "",
+        "productBigImage": "https://assets.lcsc.com/images/lcsc/900x900/20230228_Texas-Instruments-TPS7A0233PDQNR_C2860046_blank.jpg",
+        "productBigImageAccessId": "",
+        "componentImageAccessId": null,
+        "fileType": 0
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TI TPS7A0233PDQNR",
+    "componentSpecificationEn": "X2-SON-4-EP(1x1)",
+    "describe": "-40℃~+125℃@(Tj) 1 130uVrms 200mA 25nA 270mV@(200mA) 3.3V 55dB@(1kHz) 6V Fixed Over Current Protection Positive X2-SON-4-EP(1x1) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Power Supply Rejection Ratio (PSRR)",
+        "component_code": "C2860046",
+        "attribute_value_name": "55dB@(1kHz)"
+      },
+      {
+        "attribute_name_en": "standby current",
+        "component_code": "C2860046",
+        "attribute_value_name": "25nA"
+      },
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C2860046",
+        "attribute_value_name": "-40℃~+125℃@(Tj)"
+      },
+      {
+        "attribute_name_en": "Noise",
+        "component_code": "C2860046",
+        "attribute_value_name": "130uVrms"
+      },
+      {
+        "attribute_name_en": "Output Type",
+        "component_code": "C2860046",
+        "attribute_value_name": "Fixed"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply",
+        "component_code": "C2860046",
+        "attribute_value_name": "6V"
+      },
+      {
+        "attribute_name_en": "Output Current",
+        "component_code": "C2860046",
+        "attribute_value_name": "200mA"
+      },
+      {
+        "attribute_name_en": "Output Configuration",
+        "component_code": "C2860046",
+        "attribute_value_name": "Positive"
+      },
+      {
+        "attribute_name_en": "Features",
+        "component_code": "C2860046",
+        "attribute_value_name": "Over Current Protection"
+      },
+      {
+        "attribute_name_en": "Voltage Dropout",
+        "component_code": "C2860046",
+        "attribute_value_name": "270mV@(200mA)"
+      },
+      {
+        "attribute_name_en": "Output Voltage",
+        "component_code": "C2860046",
+        "attribute_value_name": "3.3V"
+      },
+      {
+        "attribute_name_en": "Number of Outputs",
+        "component_code": "C2860046",
+        "attribute_value_name": "1"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Power Management (PMIC)",
+    "secondSortName": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 3064723,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 3867,
+    "overseasStockCount": 3867,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2860046",
+        "startNumber": 1,
+        "endNumber": 9,
+        "productPrice": 0.5281,
+        "erpComponentPriceKeyId": 345604400,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2860046",
+        "startNumber": 10,
+        "endNumber": 29,
+        "productPrice": 0.4216,
+        "erpComponentPriceKeyId": 345604398,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2860046",
+        "startNumber": 30,
+        "endNumber": 99,
+        "productPrice": 0.3698,
+        "erpComponentPriceKeyId": 345604402,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2860046",
+        "startNumber": 100,
+        "endNumber": 499,
+        "productPrice": 0.3166,
+        "erpComponentPriceKeyId": 345604401,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2860046",
+        "startNumber": 500,
+        "endNumber": 999,
+        "productPrice": 0.2861,
+        "erpComponentPriceKeyId": 345604397,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2860046",
+        "startNumber": 1000,
+        "endNumber": -1,
+        "productPrice": 0.2694,
+        "erpComponentPriceKeyId": 345604399,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 2,
+    "leastNumberPrice": 0.1532,
+    "lcscGoodsUrl": "https://lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-tps7a0233pdqnr_C2860046.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "具有使能功能的 200mA、毫微功耗 IQ (25nA)、低压降 (LDO) 稳压器",
+    "lossNumber": 0,
+    "secondTypeNameEn": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+    "firstTypeNameEn": "Power Management (PMIC)",
+    "secondTypeNameId": 2956,
+    "firstTypeNameId": 9,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 3834,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.5281,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 21,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 2,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388703,
+    "overseasComponentBrandBizKey": "385285308357283842",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "Texas Instruments-40℃~+125℃@(Tj) 1 130uVrms 200mA 25nA 270mV@(200mA) 3.3V 55dB@(1kHz) 6V Fixed Over Current Protection Positive X2-SON-4-EP(1x1) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+  },
+  "message": null
+}

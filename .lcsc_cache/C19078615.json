@@ -1,0 +1,275 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C19078615",
+    "componentBrandEn": "THD",
+    "componentModelEn": "THD0310-33CL-GF",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8585542461540208640",
+    "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403210310_THD-THD0310-33CL-GF_C19078615.pdf",
+    "dataManualFileAccessId": "8603062598309068800",
+    "dataManualOfficialLink": "",
+    "componentName": "THD THD0310-33CL-GF",
+    "minImage": "",
+    "minImageAccessId": "8585542462488391680",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8585542462488391680",
+        "productBigImage": null,
+        "productBigImageAccessId": "8585542461540208640",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8585542465793773568",
+        "productBigImage": null,
+        "productBigImageAccessId": "8585542464853979136",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8585542468947349504",
+        "productBigImage": null,
+        "productBigImageAccessId": "8585542468007419904",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8585542474534567936",
+        "productBigImage": null,
+        "productBigImageAccessId": "8585542473573937152",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "THD THD0310-33CL-GF",
+    "componentSpecificationEn": "SMD,P=0.3mm,Surface Mount，Right Angle(Staggered pins)",
+    "describe": "-25℃~+85℃ 0.2mm 0.3mm 1mm 200mA 30V 33P Bottom Contact Copper Alloy Front insertion and back flip type Gold Surface Mount, Right Angle SMD,P=0.3mm,Surface Mount，Right Angle(Staggered pins) FFC, FPC (Flat Flexible) Connector Assemblies ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C19078615",
+        "attribute_value_name": "-25℃~+85℃"
+      },
+      {
+        "attribute_name_en": "Locking Feature",
+        "component_code": "C19078615",
+        "attribute_value_name": "Front insertion and back flip type"
+      },
+      {
+        "attribute_name_en": "Rated Voltage (Max)",
+        "component_code": "C19078615",
+        "attribute_value_name": "30V"
+      },
+      {
+        "attribute_name_en": "Current Rating (Max)",
+        "component_code": "C19078615",
+        "attribute_value_name": "200mA"
+      },
+      {
+        "attribute_name_en": "Contact Plating",
+        "component_code": "C19078615",
+        "attribute_value_name": "Gold"
+      },
+      {
+        "attribute_name_en": "Contact Material",
+        "component_code": "C19078615",
+        "attribute_value_name": "Copper Alloy"
+      },
+      {
+        "attribute_name_en": "Pitch",
+        "component_code": "C19078615",
+        "attribute_value_name": "0.3mm"
+      },
+      {
+        "attribute_name_en": "Number of Contacts",
+        "component_code": "C19078615",
+        "attribute_value_name": "33P"
+      },
+      {
+        "attribute_name_en": "Contact Type",
+        "component_code": "C19078615",
+        "attribute_value_name": "Bottom Contact"
+      },
+      {
+        "attribute_name_en": "Height Above Board",
+        "component_code": "C19078615",
+        "attribute_value_name": "1mm"
+      },
+      {
+        "attribute_name_en": "Mounting Type",
+        "component_code": "C19078615",
+        "attribute_value_name": "Surface Mount, Right Angle"
+      },
+      {
+        "attribute_name_en": "FFC, FCB Thickness",
+        "component_code": "C19078615",
+        "attribute_value_name": "0.2mm"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Connectors",
+    "secondSortName": "FFC, FPC (Flat Flexible) Connector Assemblies",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 20283341,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 4943,
+    "overseasStockCount": 4943,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C19078615",
+        "startNumber": 1,
+        "endNumber": 49,
+        "productPrice": 0.1009,
+        "erpComponentPriceKeyId": 346505390760792183,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C19078615",
+        "startNumber": 50,
+        "endNumber": 149,
+        "productPrice": 0.0882,
+        "erpComponentPriceKeyId": 346505390760792186,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C19078615",
+        "startNumber": 150,
+        "endNumber": 499,
+        "productPrice": 0.0827,
+        "erpComponentPriceKeyId": 346505390760792185,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C19078615",
+        "startNumber": 500,
+        "endNumber": 2499,
+        "productPrice": 0.0758,
+        "erpComponentPriceKeyId": 346505390760792181,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C19078615",
+        "startNumber": 2500,
+        "endNumber": 4999,
+        "productPrice": 0.0728,
+        "erpComponentPriceKeyId": 346505390760792184,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C19078615",
+        "startNumber": 5000,
+        "endNumber": -1,
+        "productPrice": 0.071,
+        "erpComponentPriceKeyId": 346505390760792182,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 5000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.0735,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/ffc-fpc-flat-flexible-connector-assemblies_thd-thd0310-33cl-gf_C19078615.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "翻盖式(前插后翻) 下接 P数:33P 间距:0.3mm",
+    "lossNumber": 5,
+    "secondTypeNameEn": "FFC, FPC (Flat Flexible) Connector Assemblies",
+    "firstTypeNameEn": "Connectors",
+    "secondTypeNameId": 3051,
+    "firstTypeNameId": 8,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 4943,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "manualWeld",
+    "assemblyModeBatch": "manualWeld",
+    "assemblyProcess": "THT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.1009,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 99,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "-",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388798,
+    "overseasComponentBrandBizKey": "385285312836800514",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": null,
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "THD-25℃~+85℃ 0.2mm 0.3mm 1mm 200mA 30V 33P Bottom Contact Copper Alloy Front insertion and back flip type Gold Surface Mount, Right Angle SMD,P=0.3mm,Surface Mount，Right Angle(Staggered pins) FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+  },
+  "message": null
+}
