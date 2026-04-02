@@ -1,0 +1,271 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C33196",
+    "componentBrandEn": "Texas Instruments",
+    "componentModelEn": "PCA9306DCUR",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583006803105337344",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121941_Texas-Instruments-PCA9306DCUR_C33196.pdf",
+    "dataManualFileAccessId": "8588881859110948864",
+    "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/pca9306",
+    "componentName": "TI PCA9306DCUR",
+    "minImage": "",
+    "minImageAccessId": "8583006804003459072",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583006804003459072",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583006803105337344",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583006807040405504",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583006806192345088",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583006809905115136",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583006809078161408",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583006812731400192",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583006811851407360",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TI PCA9306DCUR",
+    "componentSpecificationEn": "VSSOP-8",
+    "describe": "-40℃~+85℃ 1 1.2V~3.3V 1.8V~5.5V 2 Auto Direction Detection Bidirectional Push-Pull、Open Drain VSSOP-8 Translators, Level Shifters ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Input Signal",
+        "component_code": "C33196",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C33196",
+        "attribute_value_name": "-40℃~+85℃"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply(VCCA)",
+        "component_code": "C33196",
+        "attribute_value_name": "1.2V~3.3V"
+      },
+      {
+        "attribute_name_en": "Data Rate",
+        "component_code": "C33196",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Output Signal",
+        "component_code": "C33196",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Output Type",
+        "component_code": "C33196",
+        "attribute_value_name": "Push-Pull、Open Drain"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply(VCCB)",
+        "component_code": "C33196",
+        "attribute_value_name": "1.8V~5.5V"
+      },
+      {
+        "attribute_name_en": "Channel Type",
+        "component_code": "C33196",
+        "attribute_value_name": "Bidirectional"
+      },
+      {
+        "attribute_name_en": "Number of Elements",
+        "component_code": "C33196",
+        "attribute_value_name": "1"
+      },
+      {
+        "attribute_name_en": "Features",
+        "component_code": "C33196",
+        "attribute_value_name": "Auto Direction Detection"
+      },
+      {
+        "attribute_name_en": "Number of Circuits",
+        "component_code": "C33196",
+        "attribute_value_name": "2"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Logic",
+    "secondSortName": "Translators, Level Shifters",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 34161,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 14127,
+    "overseasStockCount": 14127,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C33196",
+        "startNumber": 1,
+        "endNumber": 49,
+        "productPrice": 0.2227,
+        "erpComponentPriceKeyId": 249910617,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C33196",
+        "startNumber": 50,
+        "endNumber": 149,
+        "productPrice": 0.1734,
+        "erpComponentPriceKeyId": 249910623,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C33196",
+        "startNumber": 150,
+        "endNumber": 499,
+        "productPrice": 0.1493,
+        "erpComponentPriceKeyId": 249910575,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C33196",
+        "startNumber": 500,
+        "endNumber": 2999,
+        "productPrice": 0.1278,
+        "erpComponentPriceKeyId": 249910597,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C33196",
+        "startNumber": 3000,
+        "endNumber": 5999,
+        "productPrice": 0.1219,
+        "erpComponentPriceKeyId": 249910573,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C33196",
+        "startNumber": 6000,
+        "endNumber": -1,
+        "productPrice": 0.1184,
+        "erpComponentPriceKeyId": 249910595,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.165,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/translators-level-shifters_texas-instruments-pca9306dcur_C33196.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "2位双向电平转换器",
+    "lossNumber": 0,
+    "secondTypeNameEn": "Translators, Level Shifters",
+    "firstTypeNameEn": "Logic",
+    "secondTypeNameId": 2162,
+    "firstTypeNameId": 19,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 13514,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.2227,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 40,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244375326277666,
+    "overseasComponentBrandBizKey": "385285308357283842",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "matchedPartDetail": "Texas Instruments-40℃~+85℃ 1 1.2V~3.3V 1.8V~5.5V 2 Auto Direction Detection Bidirectional Push-Pull、Open Drain VSSOP-8 Translators, Level Shifters ROHS",
+    "storyGoods": false
+  },
+  "message": null
+}

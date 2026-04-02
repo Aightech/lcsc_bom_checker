@@ -1,0 +1,268 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C181260",
+    "componentBrandEn": "Texas Instruments",
+    "componentModelEn": "ADS1293CISQ/NOPB",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583005064004292608",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_1806081825_Texas-Instruments-ADS1293CISQ-NOPB_C181260.pdf",
+    "dataManualFileAccessId": "8588881688046260224",
+    "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/ads1293",
+    "componentName": "TI ADS1293CISQ/NOPB",
+    "minImage": "",
+    "minImageAccessId": "8583005064881983488",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583005064881983488",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583005064004292608",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583005069071552512",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583005067297361920",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583005072174796800",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583005071290744832",
+        "componentImageAccessId": null,
+        "fileType": 3
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TI ADS1293CISQ/NOPB",
+    "componentSpecificationEn": "QFN-28-EP(5x5)",
+    "describe": "-20℃~+85℃ 106dB 11ppm/℃ 11ppm/℃ 2.4V 2.7V~5.5V 24 25.6kHz 25.6kHz 409.6kHz 80uA SPI QFN-28-EP(5x5) Analog Front End (AFE) ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Clock Frequency",
+        "component_code": "C181260",
+        "attribute_value_name": "409.6kHz"
+      },
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C181260",
+        "attribute_value_name": "-20℃~+85℃"
+      },
+      {
+        "attribute_name_en": "Voltage Reference Value",
+        "component_code": "C181260",
+        "attribute_value_name": "2.4V"
+      },
+      {
+        "attribute_name_en": "S/N Ratio",
+        "component_code": "C181260",
+        "attribute_value_name": "106dB"
+      },
+      {
+        "attribute_name_en": "Data rate",
+        "component_code": "C181260",
+        "attribute_value_name": "25.6kHz"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply",
+        "component_code": "C181260",
+        "attribute_value_name": "2.7V~5.5V"
+      },
+      {
+        "attribute_name_en": "Resolution(Bits)",
+        "component_code": "C181260",
+        "attribute_value_name": "24"
+      },
+      {
+        "attribute_name_en": "Quiescent Current (Iq)",
+        "component_code": "C181260",
+        "attribute_value_name": "80uA"
+      },
+      {
+        "attribute_name_en": "Sampling Rate",
+        "component_code": "C181260",
+        "attribute_value_name": "25.6kHz"
+      },
+      {
+        "attribute_name_en": "Voltage Reference Drift",
+        "component_code": "C181260",
+        "attribute_value_name": "11ppm/℃"
+      },
+      {
+        "attribute_name_en": "Gain Drift",
+        "component_code": "C181260",
+        "attribute_value_name": "11ppm/℃"
+      },
+      {
+        "attribute_name_en": "Interface",
+        "component_code": "C181260",
+        "attribute_value_name": "SPI"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Data Acquisition",
+    "secondSortName": "Analog Front End (AFE)",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 192657,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 10,
+    "overseasStockCount": 10,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C181260",
+        "startNumber": 1,
+        "endNumber": 9,
+        "productPrice": 11.0887,
+        "erpComponentPriceKeyId": 188060757,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C181260",
+        "startNumber": 10,
+        "endNumber": 29,
+        "productPrice": 9.4899,
+        "erpComponentPriceKeyId": 188060759,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C181260",
+        "startNumber": 30,
+        "endNumber": 99,
+        "productPrice": 8.5135,
+        "erpComponentPriceKeyId": 188060774,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C181260",
+        "startNumber": 100,
+        "endNumber": 101,
+        "productPrice": 7.6965,
+        "erpComponentPriceKeyId": 188060777,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C181260",
+        "startNumber": 102,
+        "endNumber": 103,
+        "productPrice": 7.6965,
+        "erpComponentPriceKeyId": 188060775,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C181260",
+        "startNumber": 104,
+        "endNumber": -1,
+        "productPrice": 7.6965,
+        "erpComponentPriceKeyId": 188060792,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 1000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 1,
+    "leastNumberPrice": 1.6188,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/analog-front-end-afe_texas-instruments-ads1293cisq-nopb_C181260.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "ADS1293低功耗3通道24bit 生物电势测量模拟前端",
+    "lossNumber": 0,
+    "secondTypeNameEn": "Analog Front End (AFE)",
+    "firstTypeNameEn": "Data Acquisition",
+    "secondTypeNameId": 2553,
+    "firstTypeNameId": 29,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 7,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 11.0887,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 1,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 0,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244379172454425,
+    "overseasComponentBrandBizKey": "385285308357283842",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 3",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "Texas Instruments-20℃~+85℃ 106dB 11ppm/℃ 11ppm/℃ 2.4V 2.7V~5.5V 24 25.6kHz 25.6kHz 409.6kHz 80uA SPI QFN-28-EP(5x5) Analog Front End (AFE) ROHS"
+  },
+  "message": null
+}

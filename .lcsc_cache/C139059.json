@@ -1,0 +1,271 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C139059",
+    "componentBrandEn": "Texas Instruments",
+    "componentModelEn": "ADS1291IRSMR",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583025347713097728",
+    "dataManualUrl": "",
+    "dataManualFileAccessId": "",
+    "dataManualOfficialLink": "https://www.ti.com.cn/cn/lit/ds/symlink/ads1291.pdf?ts=1739420150954&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FADS1291",
+    "componentName": "TI ADS1291IRSMR",
+    "minImage": "",
+    "minImageAccessId": "8583025348585918464",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583025348585918464",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583025347713097728",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583025351794966528",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583025350901444608",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583025354697019392",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583025353845981184",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583025358257983488",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583025357297758208",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TI ADS1291IRSMR",
+    "componentSpecificationEn": "QFN-32-EP(4x4)",
+    "describe": "-40℃~+85℃ 107dB 2.42V 2.7V~5.25V 24 2ppm/℃ 45ppm/℃ 485kHz~562.5kHz、512kHz、1.94MHz~2.25MHz 8000Hz 8000Hz SPI QFN-32-EP(4x4) Analog Front End (AFE) ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Clock Frequency",
+        "component_code": "C139059",
+        "attribute_value_name": "485kHz~562.5kHz、512kHz、1.94MHz~2.25MHz"
+      },
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C139059",
+        "attribute_value_name": "-40℃~+85℃"
+      },
+      {
+        "attribute_name_en": "Voltage Reference Value",
+        "component_code": "C139059",
+        "attribute_value_name": "2.42V"
+      },
+      {
+        "attribute_name_en": "S/N Ratio",
+        "component_code": "C139059",
+        "attribute_value_name": "107dB"
+      },
+      {
+        "attribute_name_en": "Data rate",
+        "component_code": "C139059",
+        "attribute_value_name": "8000Hz"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply",
+        "component_code": "C139059",
+        "attribute_value_name": "2.7V~5.25V"
+      },
+      {
+        "attribute_name_en": "Resolution(Bits)",
+        "component_code": "C139059",
+        "attribute_value_name": "24"
+      },
+      {
+        "attribute_name_en": "Sampling Rate",
+        "component_code": "C139059",
+        "attribute_value_name": "8000Hz"
+      },
+      {
+        "attribute_name_en": "Voltage Reference Drift",
+        "component_code": "C139059",
+        "attribute_value_name": "45ppm/℃"
+      },
+      {
+        "attribute_name_en": "Gain Drift",
+        "component_code": "C139059",
+        "attribute_value_name": "2ppm/℃"
+      },
+      {
+        "attribute_name_en": "Interface",
+        "component_code": "C139059",
+        "attribute_value_name": "SPI"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Data Acquisition",
+    "secondSortName": "Analog Front End (AFE)",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 150380,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 940,
+    "overseasStockCount": 940,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C139059",
+        "startNumber": 1,
+        "endNumber": 9,
+        "productPrice": 3.6331,
+        "erpComponentPriceKeyId": 115956822,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C139059",
+        "startNumber": 10,
+        "endNumber": 29,
+        "productPrice": 3.1071,
+        "erpComponentPriceKeyId": 115956825,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C139059",
+        "startNumber": 30,
+        "endNumber": 99,
+        "productPrice": 2.6429,
+        "erpComponentPriceKeyId": 115956823,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C139059",
+        "startNumber": 100,
+        "endNumber": 499,
+        "productPrice": 2.326,
+        "erpComponentPriceKeyId": 115956824,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C139059",
+        "startNumber": 500,
+        "endNumber": 999,
+        "productPrice": 2.1802,
+        "erpComponentPriceKeyId": 115956827,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C139059",
+        "startNumber": 1000,
+        "endNumber": -1,
+        "productPrice": 2.1152,
+        "erpComponentPriceKeyId": 115956826,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 1,
+    "leastNumberPrice": 0.5383,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/analog-front-end-afe_texas-instruments-ads1291irsmr_C139059.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "用于生物电势测量的低功耗、双通道、24位模拟前端",
+    "lossNumber": 0,
+    "secondTypeNameEn": "Analog Front End (AFE)",
+    "firstTypeNameEn": "Data Acquisition",
+    "secondTypeNameId": 2553,
+    "firstTypeNameId": 29,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 936,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 3.6331,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 3,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 0,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244379172454425,
+    "overseasComponentBrandBizKey": "385285308357283842",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "",
+    "hotFlag": null,
+    "matchedPartDetail": "Texas Instruments-40℃~+85℃ 107dB 2.42V 2.7V~5.25V 24 2ppm/℃ 45ppm/℃ 485kHz~562.5kHz、512kHz、1.94MHz~2.25MHz 8000Hz 8000Hz SPI QFN-32-EP(4x4) Analog Front End (AFE) ROHS",
+    "storyGoods": false
+  },
+  "message": null
+}

@@ -1,0 +1,268 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C2876216",
+    "componentBrandEn": "Texas Instruments",
+    "componentModelEn": "TPS74633PQWDRVRQ1",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583876494090752000",
+    "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220600_Texas-Instruments-TPS74633PQWDRVRQ1_C2876216.pdf",
+    "dataManualFileAccessId": "8590191512572502016",
+    "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/tps746-q1",
+    "componentName": "TI TPS74633PQWDRVRQ1",
+    "minImage": "",
+    "minImageAccessId": "8583876495111049216",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583876495111049216",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583876494090752000",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583876498978197504",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583876498020950016",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583876502899736576",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583876501935046656",
+        "componentImageAccessId": null,
+        "fileType": 3
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TI TPS74633PQWDRVRQ1",
+    "componentSpecificationEn": "WSON-6-EP(2x2)",
+    "describe": "-40℃~+150℃@(Tj) 1 1A 25uA 265mV@(1A) 3.3V 38dB@(100kHz) 53uVrms 6V Fixed Positive Under Voltage Lockout、PG Pin、Over Current Protection、Over Temperature Protection WSON-6-EP(2x2) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Power Supply Rejection Ratio (PSRR)",
+        "component_code": "C2876216",
+        "attribute_value_name": "38dB@(100kHz)"
+      },
+      {
+        "attribute_name_en": "standby current",
+        "component_code": "C2876216",
+        "attribute_value_name": "25uA"
+      },
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C2876216",
+        "attribute_value_name": "-40℃~+150℃@(Tj)"
+      },
+      {
+        "attribute_name_en": "Noise",
+        "component_code": "C2876216",
+        "attribute_value_name": "53uVrms"
+      },
+      {
+        "attribute_name_en": "Output Type",
+        "component_code": "C2876216",
+        "attribute_value_name": "Fixed"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply",
+        "component_code": "C2876216",
+        "attribute_value_name": "6V"
+      },
+      {
+        "attribute_name_en": "Output Current",
+        "component_code": "C2876216",
+        "attribute_value_name": "1A"
+      },
+      {
+        "attribute_name_en": "Output Configuration",
+        "component_code": "C2876216",
+        "attribute_value_name": "Positive"
+      },
+      {
+        "attribute_name_en": "Features",
+        "component_code": "C2876216",
+        "attribute_value_name": "Over Current Protection、Thermal Shutdown、Input undervoltage protection、Operating status indication"
+      },
+      {
+        "attribute_name_en": "Voltage Dropout",
+        "component_code": "C2876216",
+        "attribute_value_name": "265mV@(1A)"
+      },
+      {
+        "attribute_name_en": "Output Voltage",
+        "component_code": "C2876216",
+        "attribute_value_name": "3.3V"
+      },
+      {
+        "attribute_name_en": "Number of Outputs",
+        "component_code": "C2876216",
+        "attribute_value_name": "1"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Power Management (PMIC)",
+    "secondSortName": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 3084828,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 70,
+    "overseasStockCount": 70,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2876216",
+        "startNumber": 1,
+        "endNumber": 9,
+        "productPrice": 0.9618,
+        "erpComponentPriceKeyId": 353511897,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2876216",
+        "startNumber": 10,
+        "endNumber": 29,
+        "productPrice": 0.7685,
+        "erpComponentPriceKeyId": 353511894,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2876216",
+        "startNumber": 30,
+        "endNumber": 99,
+        "productPrice": 0.6703,
+        "erpComponentPriceKeyId": 353511896,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2876216",
+        "startNumber": 100,
+        "endNumber": 499,
+        "productPrice": 0.5736,
+        "erpComponentPriceKeyId": 353511895,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2876216",
+        "startNumber": 500,
+        "endNumber": 999,
+        "productPrice": 0.5166,
+        "erpComponentPriceKeyId": 353511898,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2876216",
+        "startNumber": 1000,
+        "endNumber": -1,
+        "productPrice": 0.4865,
+        "erpComponentPriceKeyId": 353511893,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 1,
+    "leastNumberPrice": 0.1425,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-tps74633pqwdrvrq1_C2876216.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "3.3V 1A 6V",
+    "lossNumber": 0,
+    "secondTypeNameEn": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+    "firstTypeNameEn": "Power Management (PMIC)",
+    "secondTypeNameId": 2956,
+    "firstTypeNameId": 9,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 68,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.9618,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 12,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": "",
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 0,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388703,
+    "overseasComponentBrandBizKey": "385285308357283842",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "matchedPartDetail": "Texas Instruments-40℃~+150℃@(Tj) 1 1A 25uA 265mV@(1A) 3.3V 38dB@(100kHz) 53uVrms 6V Fixed Positive Under Voltage Lockout、PG Pin、Over Current Protection、Over Temperature Protection WSON-6-EP(2x2) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+    "storyGoods": false
+  },
+  "message": null
+}

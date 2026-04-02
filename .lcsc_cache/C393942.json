@@ -1,0 +1,291 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C393942",
+    "componentBrandEn": "SHOU HAN",
+    "componentModelEn": "TS24CA",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583337557421658112",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404241539_SHOU-HAN-TS24CA_C393942.pdf",
+    "dataManualFileAccessId": "8588897326642941953",
+    "dataManualOfficialLink": "",
+    "componentName": "SHOU HAN TS24CA",
+    "minImage": "",
+    "minImageAccessId": "8583337558273507328",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583337558273507328",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583337557421658112",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583337562584846336",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583337561481338880",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583337566040412160",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583337565147836416",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583337569290997760",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583337568380968960",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "SHOU HAN TS24CA",
+    "componentSpecificationEn": "SMD,4.6x1.8mm",
+    "describe": "-20℃~+70℃ 1.6N 1.9mm 12V 20,000 cycles 3.5mm 4.7mm 50mA Black No Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle Without Bracket SMD,4.6x1.8mm Tactile Switches ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C393942",
+        "attribute_value_name": "-20℃~+70℃"
+      },
+      {
+        "attribute_name_en": "Contact Current",
+        "component_code": "C393942",
+        "attribute_value_name": "50mA"
+      },
+      {
+        "attribute_name_en": "Termination Style",
+        "component_code": "C393942",
+        "attribute_value_name": "SMD(SMT) Tab"
+      },
+      {
+        "attribute_name_en": "Voltage Rating",
+        "component_code": "C393942",
+        "attribute_value_name": "12V"
+      },
+      {
+        "attribute_name_en": "Actuator Style",
+        "component_code": "C393942",
+        "attribute_value_name": "Rectangular Button"
+      },
+      {
+        "attribute_name_en": "with Bracket",
+        "component_code": "C393942",
+        "attribute_value_name": "Without Bracket"
+      },
+      {
+        "attribute_name_en": "Switch Height",
+        "component_code": "C393942",
+        "attribute_value_name": "3.5mm"
+      },
+      {
+        "attribute_name_en": "Circuit",
+        "component_code": "C393942",
+        "attribute_value_name": "SPST"
+      },
+      {
+        "attribute_name_en": "Mounting Type",
+        "component_code": "C393942",
+        "attribute_value_name": "Surface Mount, Right Angle"
+      },
+      {
+        "attribute_name_en": "Actuator/Cap Color",
+        "component_code": "C393942",
+        "attribute_value_name": "Black"
+      },
+      {
+        "attribute_name_en": "Operating Force",
+        "component_code": "C393942",
+        "attribute_value_name": "1.6N"
+      },
+      {
+        "attribute_name_en": "Length",
+        "component_code": "C393942",
+        "attribute_value_name": "4.7mm"
+      },
+      {
+        "attribute_name_en": "Life",
+        "component_code": "C393942",
+        "attribute_value_name": "20,000 cycles"
+      },
+      {
+        "attribute_name_en": "With Lamp",
+        "component_code": "C393942",
+        "attribute_value_name": "No"
+      },
+      {
+        "attribute_name_en": "Width",
+        "component_code": "C393942",
+        "attribute_value_name": "1.9mm"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Switches",
+    "secondSortName": "Tactile Switches",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 372554,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 116146,
+    "overseasStockCount": 116146,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C393942",
+        "startNumber": 1,
+        "endNumber": 199,
+        "productPrice": 0.0243,
+        "erpComponentPriceKeyId": 329022375,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C393942",
+        "startNumber": 200,
+        "endNumber": 599,
+        "productPrice": 0.0187,
+        "erpComponentPriceKeyId": 329022373,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C393942",
+        "startNumber": 600,
+        "endNumber": 2999,
+        "productPrice": 0.0164,
+        "erpComponentPriceKeyId": 329022371,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C393942",
+        "startNumber": 3000,
+        "endNumber": 8999,
+        "productPrice": 0.0139,
+        "erpComponentPriceKeyId": 329022370,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C393942",
+        "startNumber": 9000,
+        "endNumber": 20999,
+        "productPrice": 0.0132,
+        "erpComponentPriceKeyId": 329022374,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C393942",
+        "startNumber": 21000,
+        "endNumber": -1,
+        "productPrice": 0.0127,
+        "erpComponentPriceKeyId": 329022369,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.018,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/tactile-switches_shou-han-ts24ca_C393942.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "4.55*1.8*3.5mm 卧贴 轻触开关",
+    "lossNumber": 5,
+    "secondTypeNameEn": "Tactile Switches",
+    "firstTypeNameEn": "Switches",
+    "secondTypeNameId": 2970,
+    "firstTypeNameId": 14,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 100557,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0243,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 476,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388717,
+    "overseasComponentBrandBizKey": "385285325801394178",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": null,
+    "hotFlag": null,
+    "matchedPartDetail": "SHOU HAN-20℃~+70℃ 1.6N 1.9mm 12V 20,000 cycles 3.5mm 4.7mm 50mA Black No Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle Without Bracket SMD,4.6x1.8mm Tactile Switches ROHS",
+    "storyGoods": false
+  },
+  "message": null
+}

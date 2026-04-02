@@ -1,0 +1,291 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C95939",
+    "componentBrandEn": "Sunlord",
+    "componentModelEn": "SDNT1005X103F3950FTF",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583413768630251520",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2110081230_Sunlord-SDNT1005X103F3950FTF_C95939.pdf",
+    "dataManualFileAccessId": "8588905414750572545",
+    "dataManualOfficialLink": "",
+    "componentName": "Sunlord SDNT1005X103F3950FTF",
+    "minImage": "",
+    "minImageAccessId": "8583413769523908608",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583413769523908608",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583413768630251520",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583413772736475136",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583413771842818048",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583413775638122496",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583413774808461312",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583413782009810944",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583413780856782848",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "Sunlord SDNT1005X103F3950FTF",
+    "componentSpecificationEn": "0402",
+    "describe": "-55℃~+125℃ 0.5mm 0.5mm 100mW 10kΩ 1mW/℃ 1mm 330uA 3950K 3s ±1% ±1% 0402 NTC Thermistors ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C95939",
+        "attribute_value_name": "-55℃~+125℃"
+      },
+      {
+        "attribute_name_en": "Steady State Current (Max)",
+        "component_code": "C95939",
+        "attribute_value_name": "330uA"
+      },
+      {
+        "attribute_name_en": "Thermal Time Constant",
+        "component_code": "C95939",
+        "attribute_value_name": "3s"
+      },
+      {
+        "attribute_name_en": "Resistance Tolerance",
+        "component_code": "C95939",
+        "attribute_value_name": "±1%"
+      },
+      {
+        "attribute_name_en": "B Constant Tolerance",
+        "component_code": "C95939",
+        "attribute_value_name": "±1%"
+      },
+      {
+        "attribute_name_en": "B Constant (25℃/75℃)",
+        "component_code": "C95939",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "B Constant (25℃/85℃)",
+        "component_code": "C95939",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "B Constant (25℃/50℃)",
+        "component_code": "C95939",
+        "attribute_value_name": "3950K"
+      },
+      {
+        "attribute_name_en": "Dissipation Factor",
+        "component_code": "C95939",
+        "attribute_value_name": "1mW/℃"
+      },
+      {
+        "attribute_name_en": "Power(Watts)",
+        "component_code": "C95939",
+        "attribute_value_name": "100mW"
+      },
+      {
+        "attribute_name_en": "Resistance @ 25℃",
+        "component_code": "C95939",
+        "attribute_value_name": "10kΩ"
+      },
+      {
+        "attribute_name_en": "B Constant (25℃/100℃)",
+        "component_code": "C95939",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Length",
+        "component_code": "C95939",
+        "attribute_value_name": "1mm"
+      },
+      {
+        "attribute_name_en": "Height",
+        "component_code": "C95939",
+        "attribute_value_name": "0.5mm"
+      },
+      {
+        "attribute_name_en": "Width",
+        "component_code": "C95939",
+        "attribute_value_name": "0.5mm"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Sensors",
+    "secondSortName": "NTC Thermistors",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 97143,
+    "componentDesignator": "R",
+    "componentSource": "shop",
+    "stockCount": 85700,
+    "overseasStockCount": 85700,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C95939",
+        "startNumber": 1,
+        "endNumber": 199,
+        "productPrice": 0.0131,
+        "erpComponentPriceKeyId": 323294801,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C95939",
+        "startNumber": 200,
+        "endNumber": 599,
+        "productPrice": 0.0105,
+        "erpComponentPriceKeyId": 323294822,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C95939",
+        "startNumber": 600,
+        "endNumber": 3999,
+        "productPrice": 0.009,
+        "erpComponentPriceKeyId": 323294821,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C95939",
+        "startNumber": 4000,
+        "endNumber": 7999,
+        "productPrice": 0.0081,
+        "erpComponentPriceKeyId": 323294823,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C95939",
+        "startNumber": 8000,
+        "endNumber": 19999,
+        "productPrice": 0.0074,
+        "erpComponentPriceKeyId": 323294813,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C95939",
+        "startNumber": 20000,
+        "endNumber": -1,
+        "productPrice": 0.007,
+        "erpComponentPriceKeyId": 323294793,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 10000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 20,
+    "leastNumberPrice": 0.04,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/ntc-thermistors_sunlord-sdnt1005x103f3950ftf_C95939.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "10kΩ 3950K 100mW 片式NTC热敏电阻器",
+    "lossNumber": 10,
+    "secondTypeNameEn": "NTC Thermistors",
+    "firstTypeNameEn": "Sensors",
+    "secondTypeNameId": 2977,
+    "firstTypeNameId": 22,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 81971,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0131,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 974,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 20,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388724,
+    "overseasComponentBrandBizKey": "385285311876304898",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "Sunlord-55℃~+125℃ 0.5mm 0.5mm 100mW 10kΩ 1mW/℃ 1mm 330uA 3950K 3s ±1% ±1% 0402 NTC Thermistors ROHS"
+  },
+  "message": null
+}

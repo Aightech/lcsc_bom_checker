@@ -1,0 +1,271 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C3040598",
+    "componentBrandEn": "TECH PUBLIC",
+    "componentModelEn": "AO4882",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8584837748025413632",
+    "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206301715_TECH-PUBLIC-AO4882_C3040598.pdf",
+    "dataManualFileAccessId": "8590234931319644160",
+    "dataManualOfficialLink": "",
+    "componentName": "TECH PUBLIC AO4882",
+    "minImage": "",
+    "minImageAccessId": "8584837748994162688",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8584837748994162688",
+        "productBigImage": null,
+        "productBigImageAccessId": "8584837748025413632",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8584837752999723008",
+        "productBigImage": null,
+        "productBigImageAccessId": "8584837752064528384",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8584837757021249536",
+        "productBigImage": null,
+        "productBigImageAccessId": "8584837756178059264",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8584837760699518976",
+        "productBigImage": null,
+        "productBigImageAccessId": "8584837759572197376",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TECH PUBLIC AO4882",
+    "componentSpecificationEn": "SOP-8",
+    "describe": "-50℃~+150℃ 1.45nF 140pF 2 N-Channel 2.5V@250uA 21.6nC@10V 220pF@25V 25mΩ@4.5V 2W 40V 8A SOP-8 MOSFETs ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C3040598",
+        "attribute_value_name": "-50℃~+150℃"
+      },
+      {
+        "attribute_name_en": "Input Capacitance(Ciss)",
+        "component_code": "C3040598",
+        "attribute_value_name": "1.45nF"
+      },
+      {
+        "attribute_name_en": "Number",
+        "component_code": "C3040598",
+        "attribute_value_name": "2 N-Channel"
+      },
+      {
+        "attribute_name_en": "Gate Threshold Voltage (Vgs(th))",
+        "component_code": "C3040598",
+        "attribute_value_name": "2.5V@250uA"
+      },
+      {
+        "attribute_name_en": "Gate Charge(Qg)",
+        "component_code": "C3040598",
+        "attribute_value_name": "21.6nC@10V"
+      },
+      {
+        "attribute_name_en": "Reverse Transfer Capacitance (Crss@Vds)",
+        "component_code": "C3040598",
+        "attribute_value_name": "220pF@25V"
+      },
+      {
+        "attribute_name_en": "Current - Continuous Drain(Id)",
+        "component_code": "C3040598",
+        "attribute_value_name": "8A"
+      },
+      {
+        "attribute_name_en": "Drain to Source Voltage",
+        "component_code": "C3040598",
+        "attribute_value_name": "40V"
+      },
+      {
+        "attribute_name_en": "Output Capacitance(Coss)",
+        "component_code": "C3040598",
+        "attribute_value_name": "140pF"
+      },
+      {
+        "attribute_name_en": "Pd - Power Dissipation",
+        "component_code": "C3040598",
+        "attribute_value_name": "2W"
+      },
+      {
+        "attribute_name_en": "RDS(on)",
+        "component_code": "C3040598",
+        "attribute_value_name": "25mΩ@4.5V"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Transistors/Thyristors",
+    "secondSortName": "MOSFETs",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 3597923,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 13833,
+    "overseasStockCount": 13833,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C3040598",
+        "startNumber": 1,
+        "endNumber": 49,
+        "productPrice": 0.2439,
+        "erpComponentPriceKeyId": 353656800,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C3040598",
+        "startNumber": 50,
+        "endNumber": 149,
+        "productPrice": 0.189,
+        "erpComponentPriceKeyId": 353656801,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C3040598",
+        "startNumber": 150,
+        "endNumber": 499,
+        "productPrice": 0.1654,
+        "erpComponentPriceKeyId": 353656802,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C3040598",
+        "startNumber": 500,
+        "endNumber": 2999,
+        "productPrice": 0.136,
+        "erpComponentPriceKeyId": 353656799,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C3040598",
+        "startNumber": 3000,
+        "endNumber": 5999,
+        "productPrice": 0.1141,
+        "erpComponentPriceKeyId": 353656798,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C3040598",
+        "startNumber": 6000,
+        "endNumber": -1,
+        "productPrice": 0.1063,
+        "erpComponentPriceKeyId": 353656797,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 1,
+    "leastNumberPrice": 0.0357,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/mosfets_tech-public-ao4882_C3040598.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "AO4882",
+    "lossNumber": 0,
+    "secondTypeNameEn": "MOSFETs",
+    "firstTypeNameEn": "Transistors/Thyristors",
+    "secondTypeNameId": 2954,
+    "firstTypeNameId": 5,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 13491,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.2439,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 36,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": "",
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 0,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388701,
+    "overseasComponentBrandBizKey": "385285321158299649",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 3",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "TECH PUBLIC-50℃~+150℃ 1.45nF 140pF 2 N-Channel 2.5V@250uA 21.6nC@10V 220pF@25V 25mΩ@4.5V 2W 40V 8A SOP-8 MOSFETs ROHS"
+  },
+  "message": null
+}

@@ -1,0 +1,268 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C51118",
+    "componentBrandEn": "Diodes Incorporated",
+    "componentModelEn": "AP2112K-3.3TRG1",
+    "componentImageUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Diodes-Incorporated-AP2112K-3-3TRG1_C51118_front.jpg",
+    "productBigImageAccessId": null,
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.pdf",
+    "dataManualFileAccessId": "8588881290191360000",
+    "dataManualOfficialLink": "",
+    "componentName": "DIODES AP2112K-3.3TRG1",
+    "minImage": "https://assets.lcsc.com/images/lcsc/96x96/20221230_Diodes-Incorporated-AP2112K-3-3TRG1_C51118_front.jpg",
+    "minImageAccessId": null,
+    "imageList": [
+      {
+        "productImage": "https://assets.lcsc.com/images/lcsc/96x96/20221230_Diodes-Incorporated-AP2112K-3-3TRG1_C51118_front.jpg",
+        "productImageAccessId": "",
+        "productBigImage": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Diodes-Incorporated-AP2112K-3-3TRG1_C51118_front.jpg",
+        "productBigImageAccessId": "",
+        "componentImageAccessId": null,
+        "fileType": 0
+      },
+      {
+        "productImage": "https://assets.lcsc.com/images/lcsc/96x96/20221230_Diodes-Incorporated-AP2112K-3-3TRG1_C51118_back.jpg",
+        "productImageAccessId": "",
+        "productBigImage": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Diodes-Incorporated-AP2112K-3-3TRG1_C51118_back.jpg",
+        "productBigImageAccessId": "",
+        "componentImageAccessId": null,
+        "fileType": 0
+      },
+      {
+        "productImage": "https://assets.lcsc.com/images/lcsc/96x96/20221230_Diodes-Incorporated-AP2112K-3-3TRG1_C51118_blank.jpg",
+        "productImageAccessId": "",
+        "productBigImage": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Diodes-Incorporated-AP2112K-3-3TRG1_C51118_blank.jpg",
+        "productBigImageAccessId": "",
+        "componentImageAccessId": null,
+        "fileType": 0
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "DIODES AP2112K-3.3TRG1",
+    "componentSpecificationEn": "SOT-25-5",
+    "describe": "-40℃~+85℃@(Ta) 1 250mV@(600mA) 3.3V 50uVrms 55uA 600mA 65dB@(1kHz) 6V Fixed Over Current Protection Positive SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Power Supply Rejection Ratio (PSRR)",
+        "component_code": "C51118",
+        "attribute_value_name": "65dB@(1kHz)"
+      },
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C51118",
+        "attribute_value_name": "-40℃~+85℃@(Ta)"
+      },
+      {
+        "attribute_name_en": "standby current",
+        "component_code": "C51118",
+        "attribute_value_name": "55uA"
+      },
+      {
+        "attribute_name_en": "Noise",
+        "component_code": "C51118",
+        "attribute_value_name": "50uVrms"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply",
+        "component_code": "C51118",
+        "attribute_value_name": "6V"
+      },
+      {
+        "attribute_name_en": "Output Type",
+        "component_code": "C51118",
+        "attribute_value_name": "Fixed"
+      },
+      {
+        "attribute_name_en": "Output Current",
+        "component_code": "C51118",
+        "attribute_value_name": "600mA"
+      },
+      {
+        "attribute_name_en": "Output Configuration",
+        "component_code": "C51118",
+        "attribute_value_name": "Positive"
+      },
+      {
+        "attribute_name_en": "Features",
+        "component_code": "C51118",
+        "attribute_value_name": "Over Current Protection"
+      },
+      {
+        "attribute_name_en": "Voltage Dropout",
+        "component_code": "C51118",
+        "attribute_value_name": "250mV@(600mA)"
+      },
+      {
+        "attribute_name_en": "Output Voltage",
+        "component_code": "C51118",
+        "attribute_value_name": "3.3V"
+      },
+      {
+        "attribute_name_en": "Number of Outputs",
+        "component_code": "C51118",
+        "attribute_value_name": "1"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Power Management (PMIC)",
+    "secondSortName": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 52131,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 0,
+    "overseasStockCount": 0,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C51118",
+        "startNumber": 1,
+        "endNumber": 49,
+        "productPrice": 0.1323,
+        "erpComponentPriceKeyId": 144928699,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C51118",
+        "startNumber": 50,
+        "endNumber": 149,
+        "productPrice": 0.108,
+        "erpComponentPriceKeyId": 144928732,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C51118",
+        "startNumber": 150,
+        "endNumber": 499,
+        "productPrice": 0.0954,
+        "erpComponentPriceKeyId": 144928663,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C51118",
+        "startNumber": 500,
+        "endNumber": 2999,
+        "productPrice": 0.0851,
+        "erpComponentPriceKeyId": 144928687,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C51118",
+        "startNumber": 3000,
+        "endNumber": 5999,
+        "productPrice": 0.0778,
+        "erpComponentPriceKeyId": 144928651,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C51118",
+        "startNumber": 6000,
+        "endNumber": -1,
+        "productPrice": 0.0753,
+        "erpComponentPriceKeyId": 144928684,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.097,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_diodes-incorporated-ap2112k-3-3trg1_C51118.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "输入6V 输出3.3V 600mA",
+    "lossNumber": 2,
+    "secondTypeNameEn": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+    "firstTypeNameEn": "Power Management (PMIC)",
+    "secondTypeNameId": 2956,
+    "firstTypeNameId": 9,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 0,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 82,
+    "initialPrice": 0.108,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 82,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": null,
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388703,
+    "overseasComponentBrandBizKey": "385285312417370114",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "storyGoods": false,
+    "matchedPartDetail": "Diodes Incorporated-40℃~+85℃@(Ta) 1 250mV@(600mA) 3.3V 50uVrms 55uA 600mA 65dB@(1kHz) 6V Fixed Over Current Protection Positive SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+  },
+  "message": null
+}

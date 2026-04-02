@@ -1,0 +1,286 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C2983744",
+    "componentBrandEn": "UMW(Youtai Semiconductor Co., Ltd.)",
+    "componentModelEn": "SN74LVC1G04DCKR",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583691992073449472",
+    "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2405141142_UMW-Youtai-Semiconductor-Co---Ltd--SN74LVC1G04DCKR_C2983744.pdf",
+    "dataManualFileAccessId": "8561984455217864705",
+    "dataManualOfficialLink": "",
+    "componentName": "UMW SN74LVC1G04DCKR",
+    "minImage": "",
+    "minImageAccessId": "8583691992950194176",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583691992950194176",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583691992073449472",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583691996037066752",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583691995143815168",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583691999878238208",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583691999060889600",
+        "componentImageAccessId": null,
+        "fileType": 3
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583692004715216896",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583692003834277888",
+        "componentImageAccessId": null,
+        "fileType": 4
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "UMW SN74LVC1G04DCKR",
+    "componentSpecificationEn": "SC-70-5",
+    "describe": "-40℃~+105℃ 1 1 1.65V~5.5V 1.7V 10ns@5V,15pF 10uA 32mA 32mA 580mV~1.65V 74LVC SC-70-5 Inverters ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Output Logic Level - Low",
+        "component_code": "C2983744",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C2983744",
+        "attribute_value_name": "-40℃~+105℃"
+      },
+      {
+        "attribute_name_en": "Propagation Delay",
+        "component_code": "C2983744",
+        "attribute_value_name": "10ns@5V,15pF"
+      },
+      {
+        "attribute_name_en": "Input Type",
+        "component_code": "C2983744",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Output Logic Level - High",
+        "component_code": "C2983744",
+        "attribute_value_name": "-"
+      },
+      {
+        "attribute_name_en": "Current - Output High(IOH)",
+        "component_code": "C2983744",
+        "attribute_value_name": "32mA"
+      },
+      {
+        "attribute_name_en": "Quiescent Current(Iq)",
+        "component_code": "C2983744",
+        "attribute_value_name": "10uA"
+      },
+      {
+        "attribute_name_en": "Series",
+        "component_code": "C2983744",
+        "attribute_value_name": "74LVC"
+      },
+      {
+        "attribute_name_en": "Input Logic Level - High",
+        "component_code": "C2983744",
+        "attribute_value_name": "1.7V"
+      },
+      {
+        "attribute_name_en": "Voltage - Supply",
+        "component_code": "C2983744",
+        "attribute_value_name": "1.65V~5.5V"
+      },
+      {
+        "attribute_name_en": "Number of Inputs",
+        "component_code": "C2983744",
+        "attribute_value_name": "1"
+      },
+      {
+        "attribute_name_en": "Input Logic Level -Low",
+        "component_code": "C2983744",
+        "attribute_value_name": "580mV~1.65V"
+      },
+      {
+        "attribute_name_en": "Number of Circuits",
+        "component_code": "C2983744",
+        "attribute_value_name": "1"
+      },
+      {
+        "attribute_name_en": "Current - Output Low(IOL)",
+        "component_code": "C2983744",
+        "attribute_value_name": "32mA"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Logic",
+    "secondSortName": "Inverters",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 3422604,
+    "componentDesignator": "U",
+    "componentSource": "shop",
+    "stockCount": 80591,
+    "overseasStockCount": 80591,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2983744",
+        "startNumber": 1,
+        "endNumber": 199,
+        "productPrice": 0.0422,
+        "erpComponentPriceKeyId": 347151735,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2983744",
+        "startNumber": 200,
+        "endNumber": 599,
+        "productPrice": 0.033,
+        "erpComponentPriceKeyId": 347151736,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2983744",
+        "startNumber": 600,
+        "endNumber": 2999,
+        "productPrice": 0.0281,
+        "erpComponentPriceKeyId": 347151734,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2983744",
+        "startNumber": 3000,
+        "endNumber": 8999,
+        "productPrice": 0.0213,
+        "erpComponentPriceKeyId": 347151732,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2983744",
+        "startNumber": 9000,
+        "endNumber": 20999,
+        "productPrice": 0.0186,
+        "erpComponentPriceKeyId": 347151733,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2983744",
+        "startNumber": 21000,
+        "endNumber": -1,
+        "productPrice": 0.0172,
+        "erpComponentPriceKeyId": 347151731,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 3000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.0315,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/inverters_umw-youtai-semiconductor-co-ltd-sn74lvc1g04dckr_C2983744.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "逻辑芯片",
+    "lossNumber": 4,
+    "secondTypeNameEn": "Inverters",
+    "firstTypeNameEn": "Logic",
+    "secondTypeNameId": 2567,
+    "firstTypeNameId": 19,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 80231,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.0422,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 270,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": "",
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244379172454439,
+    "overseasComponentBrandBizKey": "385285322559197186",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "matchedPartDetail": "UMW(Youtai Semiconductor Co., Ltd.)-40℃~+105℃ 1 1 1.65V~5.5V 1.7V 10ns@5V,15pF 10uA 32mA 32mA 580mV~1.65V 74LVC SC-70-5 Inverters ROHS",
+    "storyGoods": false
+  },
+  "message": null
+}

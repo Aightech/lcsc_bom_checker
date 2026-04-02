@@ -1,0 +1,263 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C2868952",
+    "componentBrandEn": "Texas Instruments",
+    "componentModelEn": "ESD321DPYR",
+    "componentImageUrl": "",
+    "productBigImageAccessId": "8583695893476753408",
+    "dataManualUrl": "https://www.ti.com/cn/lit/gpn/esd321",
+    "dataManualFileAccessId": "",
+    "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/esd321",
+    "componentName": "TI ESD321DPYR",
+    "minImage": "",
+    "minImageAccessId": "8583695894365540352",
+    "imageList": [
+      {
+        "productImage": null,
+        "productImageAccessId": "8583695894365540352",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583695893476753408",
+        "componentImageAccessId": null,
+        "fileType": 1
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583695898925154304",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583695898035826688",
+        "componentImageAccessId": null,
+        "fileType": 2
+      },
+      {
+        "productImage": null,
+        "productImageAccessId": "8583695902301433856",
+        "productBigImage": null,
+        "productBigImageAccessId": "8583695901466497024",
+        "componentImageAccessId": null,
+        "fileType": 3
+      }
+    ],
+    "manufacturerBlackFlag": null,
+    "componentNameEn": "TI ESD321DPYR",
+    "componentSpecificationEn": "X1-SON-2(0.6x1)",
+    "describe": "-40℃~+125℃ 0.9pF 100pA 3.6V 4.5V 40W 6.3V 6A@8/20us IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 TVS Unidirectional X1-SON-2(0.6x1) ESD and Surge Protection (TVS/ESD) ROHS",
+    "attributes": [
+      {
+        "attribute_name_en": "Operating Temperature",
+        "component_code": "C2868952",
+        "attribute_value_name": "-40℃~+125℃"
+      },
+      {
+        "attribute_name_en": "Type",
+        "component_code": "C2868952",
+        "attribute_value_name": "TVS"
+      },
+      {
+        "attribute_name_en": "Junction Capacitance",
+        "component_code": "C2868952",
+        "attribute_value_name": "0.9pF"
+      },
+      {
+        "attribute_name_en": "Peak Pulse Power Dissipation (Ppp)",
+        "component_code": "C2868952",
+        "attribute_value_name": "40W"
+      },
+      {
+        "attribute_name_en": "level of protection",
+        "component_code": "C2868952",
+        "attribute_value_name": "IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4"
+      },
+      {
+        "attribute_name_en": "Clamping Voltage",
+        "component_code": "C2868952",
+        "attribute_value_name": "6.3V"
+      },
+      {
+        "attribute_name_en": "Polarity",
+        "component_code": "C2868952",
+        "attribute_value_name": "Unidirectional"
+      },
+      {
+        "attribute_name_en": "Reverse Stand-Off Voltage (Vrwm)",
+        "component_code": "C2868952",
+        "attribute_value_name": "3.6V"
+      },
+      {
+        "attribute_name_en": "Peak Pulse Current (Ipp)",
+        "component_code": "C2868952",
+        "attribute_value_name": "6A@8/20us"
+      },
+      {
+        "attribute_name_en": "Voltage - Breakdown",
+        "component_code": "C2868952",
+        "attribute_value_name": "4.5V"
+      },
+      {
+        "attribute_name_en": "Reverse Leakage Current (Ir)",
+        "component_code": "C2868952",
+        "attribute_value_name": "100pA"
+      }
+    ],
+    "rankScore": null,
+    "firstSortName": "Circuit Protection",
+    "secondSortName": "ESD and Surge Protection (TVS/ESD)",
+    "componentBrandHigh": null,
+    "remarkHigh": null,
+    "componentModelHigh": null,
+    "componentCodeHigh": null,
+    "componentSpecificationHigh": null,
+    "rohsFlag": 1,
+    "assemblyComponentFlag": false,
+    "lcscComponentId": 3073629,
+    "componentDesignator": "D",
+    "componentSource": "shop",
+    "stockCount": 6716,
+    "overseasStockCount": 6716,
+    "prices": [
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2868952",
+        "startNumber": 1,
+        "endNumber": 49,
+        "productPrice": 0.2745,
+        "erpComponentPriceKeyId": 347174823,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2868952",
+        "startNumber": 50,
+        "endNumber": 149,
+        "productPrice": 0.2383,
+        "erpComponentPriceKeyId": 347174821,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2868952",
+        "startNumber": 150,
+        "endNumber": 499,
+        "productPrice": 0.223,
+        "erpComponentPriceKeyId": 347174825,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2868952",
+        "startNumber": 500,
+        "endNumber": 2499,
+        "productPrice": 0.2036,
+        "erpComponentPriceKeyId": 347174824,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2868952",
+        "startNumber": 2500,
+        "endNumber": 4999,
+        "productPrice": 0.1951,
+        "erpComponentPriceKeyId": 347174826,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      },
+      {
+        "componentPriceKeyId": null,
+        "componentPriceAccessId": null,
+        "lcscComponentId": null,
+        "componentCode": "C2868952",
+        "startNumber": 5000,
+        "endNumber": -1,
+        "productPrice": 0.1899,
+        "erpComponentPriceKeyId": 347174822,
+        "createTime": null,
+        "updateTime": null,
+        "deleted": false,
+        "lcscPriceRangeCoefficient": 1
+      }
+    ],
+    "buyPrices": null,
+    "jlcPrices": null,
+    "encapsulationUnit": "PCS",
+    "encapsulationNumber": 10000,
+    "componentTypeEn": null,
+    "xrayFlag": false,
+    "componentLibraryType": "expand",
+    "leastNumber": 5,
+    "leastNumberPrice": 0.2035,
+    "lcscGoodsUrl": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_texas-instruments-esd321dpyr_C2868952.html/?href=jlc-SMT/?href=jlc-SMT",
+    "erpComponentName": "单向 3.6V 6A@8/20us",
+    "lossNumber": 0,
+    "secondTypeNameEn": "ESD and Surge Protection (TVS/ESD)",
+    "firstTypeNameEn": "Circuit Protection",
+    "secondTypeNameId": 3035,
+    "firstTypeNameId": 11,
+    "warehouseCode": "sz",
+    "warehouseName": "深圳",
+    "canPresaleNumber": 6206,
+    "minPresaleNumber": 0,
+    "theRatio": null,
+    "componentStatus": "yes",
+    "assemblyMode": "smtWeld",
+    "assemblyModeBatch": "smtWeld",
+    "assemblyProcess": "SMT",
+    "minPurchaseNum": 1,
+    "initialPrice": 0.2745,
+    "minPresalePrice": null,
+    "componentPresaleType": null,
+    "preMinPurchaseNum": 33,
+    "providerInfos": null,
+    "componentProductType": 0,
+    "isBuyComponent": "1",
+    "noBuyReason": null,
+    "replaceUrlSuffix": null,
+    "componentAlternativesCode": "",
+    "alternativesLcscComponentId": null,
+    "leastPatchNumber": 5,
+    "fixtureFlag": false,
+    "fullReelPrice": null,
+    "recentBuyNum": null,
+    "recentBuyUnitPrice": null,
+    "buyCustomerCode": null,
+    "eccnCode": "EAR99",
+    "allowPostFlag": true,
+    "overseasComponentCatalogBizKey": 385244381135388782,
+    "overseasComponentBrandBizKey": "385285308357283842",
+    "catalogBlackFlag": null,
+    "shopShowPriceFlag": true,
+    "shopShowForeignPriceFlag": true,
+    "shopRealPriceFlag": true,
+    "needAuditFlag": false,
+    "specialComponentFee": 0.0,
+    "orderInstructionEnglish": "",
+    "moistureSensitivityLevelEn": "MSL 1",
+    "hotFlag": null,
+    "matchedPartDetail": "Texas Instruments-40℃~+125℃ 0.9pF 100pA 3.6V 4.5V 40W 6.3V 6A@8/20us IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 TVS Unidirectional X1-SON-2(0.6x1) ESD and Surge Protection (TVS/ESD) ROHS",
+    "storyGoods": false
+  },
+  "message": null
+}
